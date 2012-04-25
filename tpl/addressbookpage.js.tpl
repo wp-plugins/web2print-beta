@@ -1,2 +1,0 @@
-dgoCurrentPage 	= 'addressBook';
-dgoGuid 		= '{guid}';
