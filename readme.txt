@@ -57,7 +57,7 @@ Answer to foo bar dilemma.
 == Screenshots ==
 
 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, `/trunk/0.8/screenshot-1.jpg` (or jpg, jpeg, gif)
+the directory of the stable readme.txt, so in this case, `/tags/0.8/screenshot-1.jpg` (or jpg, jpeg, gif)
 2. This is the second screen shot
 
 == Changelog ==
