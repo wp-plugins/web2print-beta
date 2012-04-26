@@ -1,19 +1,18 @@
 ﻿=== web2print beta ===
 Contributors: Delivergo
 Donate link: http://euxira.com/
-Tags: comments, spam
+Tags: Web2Print, Affiliate, Mass Customisation
 Requires at least: 3.3.0
 Tested up to: 3.3.0
 Stable tag: 0.8
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Web2Print plugin
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+A Web2Print plugin to offer printing products & personalised gifts very easy & fast.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+More information coming soon ...
 
 A few notes about the sections above:
 
@@ -76,34 +75,3 @@ Upgrade notices describe the reason a user should upgrade.  No more than 300 cha
 
 = 0.5 =
 This version fixes a security related bug.  Upgrade immediately.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-           "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
