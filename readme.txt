@@ -1,19 +1,18 @@
 ﻿=== web2print beta ===
 Contributors: Delivergo
 Donate link: http://euxira.com/
-Tags: comments, spam
+Tags: Web2Print, Affiliate, Mass Customisation
 Requires at least: 3.3.0
 Tested up to: 3.3.0
 Stable tag: 0.8
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Web2Print plugin
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+A Web2Print plugin to offer printing products & personalised gifts very easy & fast.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+More information coming soon ...
 
 A few notes about the sections above:
 
