@@ -1,0 +1,1 @@
+dgoGuid = '{guidUser}';
