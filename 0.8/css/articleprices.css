@@ -1,0 +1,72 @@
+.art-pri-container{
+	width: 100%;
+	overflow: hidden;
+	font-size: 12px;
+
+}
+
+.art-pri-part-1{
+	width: 100%;
+	overflow: hidden;	
+}
+
+.art-pri-part-1-content{
+	display: block;
+	width: 100%;	
+	margin-left: 12px;
+}
+
+.art-part-1-element{
+	display: block;
+	width: 15%;
+	float: left;
+	border: 1px solid #CCC;	
+	padding: 5px 10px;
+	margin: 2% 2% 0 0;
+	-moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+	background: -moz-linear-gradient(top,  #FFFFFF,  #EFEFEF);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#EFEFEF));
+	background: -o-linear-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#EFEFEF));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EFEFEF'); /* IE6 & IE7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#EFEFEF')";
+	text-shadow: 0.06em 0.06em 0.01em white; 
+	height: 130px;
+	overflow: hidden;
+}
+
+.art-part-1-element:hover{
+	border: 1px solid orange;
+	cursor: pointer		
+}
+
+.art-part-1-element-pic{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: 5px;	
+}
+
+.art-part-1-element-pic img{
+	width: 80px;
+	height: 80px;
+}
+
+.art-part-1-element-label{
+	text-align: center;
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-shadow: 0.05em 0.05em 0.03em white;
+	text-decoration: none;
+	color: #696969;	
+}
+
+a.article-link:hover{
+	text-decoration: none;
+	color: #696969;
+}

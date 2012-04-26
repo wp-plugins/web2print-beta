@@ -1,0 +1,532 @@
+/* Edited with EditCSS */
+/**** LINK-tag style sheet addressBook.css ****/
+
+input {
+	padding: 0;
+}
+
+hr{
+	border: 1px solid #CCC;
+}
+
+#all-order-filter{
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+
+#address-book-container{
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	-moz-border-radius: 15px;	
+	padding: 10px; 
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+    overflow: hidden; 
+	height: auto;       
+}
+
+#address-search-sort{
+	display: table;
+	width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCC;
+}
+
+#address-search{
+	width: 70%;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#searchValue{
+	border: 1px solid #CCC;
+	width: 195px;
+	margin-right: 10px;
+    height: 30px;
+    padding: 0 !important;
+    padding-left: 5px;
+}
+
+#address-sort{
+	display: table-cell;
+	width: 20%;
+	float: right;
+	margin-right: 15px;
+}
+
+#address-sort select{
+	margin-left: 30px;
+}
+
+#searchButton{
+	border: 1px solid #CCCCCC;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+	float: left;
+    padding: 7px 20px;
+    text-align: center;   
+    background: -moz-linear-gradient(top,  #FFFFFF,  #F6F6F6);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F6F6F6));
+	background: -o-linear-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F6F6F6));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F6F6F6'); /* IE6 & IE7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#F6F6F6')"; /* IE8 */
+}
+.import{
+    margin-top: 10px;	        
+    height: 60px;
+}
+
+.add-new-address-content input{
+	background-image: none !important;
+}
+
+#import-google, #import-linkedin{
+	border: 1px solid #CCC;		
+	margin-right: 10px;
+    padding: 0 10px;
+    font-size: 13px;
+    cursor: pointer;
+    float: left;
+}
+
+#import-google:hover, #import-linkedin:hover{
+        border-color: orange;
+}
+
+#newAddress, #changePassword{
+	border: 1px solid #CCC;
+    padding: 0 10px;
+	margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+	float:left;
+}
+
+#newAddress:hover{
+    border-color: orange;
+}
+
+#header-field{        
+	height: 25px;
+	width: 100%;
+	float: left;
+    margin-top: -10px;
+    line-height: 25px;
+	border: 1px solid #CCC;
+    background: -moz-linear-gradient(top,  #FFFFFF,  #E3E2E2);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#E3E2E2));
+}
+
+#all-contact-field{
+	width: 100%;
+	float: left;
+    margin-bottom: 10px;	
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC; 
+    background: -moz-linear-gradient(top,  #FFFFFF,  #EFEFEF);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#EFEFEF));
+        
+}
+
+.contact-table-cell{
+	padding: 10px 0 10px 0;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	overflow:hidden;	
+}
+
+.name-field{
+	vertical-align: top;
+	text-align: left;
+	width: 15%;
+	float: left;
+	padding:0 5px 0 5px;
+    margin: 0 0 0 3px;
+    
+}
+
+.name-field input{
+	margin-top: 30px;
+	border: 1px solid #CDCDCD;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-moz-box-shadow: 0 0 5px #EEEEEE inset;
+	display: none;
+}
+
+.address-field{
+	vertical-align: top;
+	text-align: left;
+	width: 26%;
+	float: left;
+}
+.contact-field{
+	vertical-align: top;
+	text-align: left;
+	width: 29%;
+	float: left;
+}
+.img-field{
+   float:left;
+   width: 15%;
+
+}
+
+.img-field img{
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin-left: 2px;
+}
+
+.img-field:hover{
+	cursor: pointer;
+}
+
+.button-field{
+ 	float:left;
+    width: 11%; 
+}
+
+.forgot-password{
+	font-size: 14px;
+}
+
+.forgot-password-header{
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-left: 21px;
+    text-align: left;
+}
+
+.forgot-password-content{
+	padding: 10px 0 10px 0;
+	font-size: 12px;
+	text-align: center;		
+	margin: 0 auto;
+}
+
+.forgot-password-content-input{
+    float: left;
+    margin-left:0px;
+    margin: 0 0 5px 16px;
+}
+
+.forgot-password-checkLoginExistStatus{
+    float: left;
+    margin: 7px 0 0 5px;
+    height: 30px;
+    width: 30px;    
+}
+
+.forgot-password-checkLoginExistStatus-process{
+    background: url('img/icon/ajax-loading.gif') no-repeat;
+}
+
+.forgot-password-checkLoginExistStatus-success{
+    background: url('img/icon/true.png') no-repeat;
+}
+
+.forgot-password-checkLoginExistStatus-fail{
+    background: url('img/icon/false.png') no-repeat;
+}
+
+.forgot-password-content-message, .forgot-password-content-message-active{
+    width: 340px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    color: red;
+    text-align:center;
+}
+#activeAccountButton, #activeContacting{
+	border: 1px solid #CCC;
+	border-radius: 15px;	
+	height:30px;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+
+#recoverButton{
+    float: right;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 43px;
+    padding: 0 15px;
+}
+
+#loginName,#activeAccount{
+	border: 1px solid #CCC;
+	height:30px;
+	width:300px;
+	background: -moz-linear-gradient(top, #FFFFFF, #F6F6F6);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F6F6F6));
+	background: -o-linear-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F6F6F6));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F6F6F6'); /* IE6 & IE7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#F6F6F6')"; /* IE8 */
+	-moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.button-edit-delete{
+    border: 1px solid #CCC;
+    border-radius: 15px;    
+    text-align: center; 
+    display: none;
+    font-size: 13px !important;
+    cursor: pointer;
+    width: 70px;
+	margin-left: -5px;
+}
+
+.button-edit-delete:hover{
+	border-color: orange;
+}
+
+.search{
+	float: left;
+	border: 1px solid #CCC;	
+	color: #808080;
+	border-radius: 5px;
+}
+
+.inline{
+	position: relative;
+	top: 2px;
+	border: 0px;
+}
+
+#activeContacting{
+	width: 100px;
+	height: 30px;
+	margin-top: 10px
+}
+
+#sortValue{
+	border: 1px solid #CCC;
+    padding: 2px;
+    width: 100px;	
+}
+
+/*import contact*/
+#import-contacting, #import-contacting-linkedin{
+	font-family: Tahoma;
+	font-size: 12px;
+	border: 2px solid #DCDCDC;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	width:750px;
+}
+#import-contacting-header, #import-contacting-linkedin-header{
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0 10px 0;
+}
+.dgo-text{
+	float: left;
+	line-height: 30px;
+        padding-left: 10px;
+}
+.import-contact-search{
+	float: right;
+	margin-bottom: 10px;	
+}
+
+#import-contacting-search, #import-contacting-linkedin-search{
+    padding: 0px 20px;
+	cursor: pointer;
+	width: 80px;
+	font-size: 13px;
+	position: absolute;
+	margin: -38px 0 0 310px;
+}
+
+#import-contacting-search:hover,#import-contacting-linkedin-search:hover{
+    border-color: orange;
+}
+
+#import-contacting-txt, #import-contacting-linkedin-txt,#shopping-contacting-txt{
+	width: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
+    border: 1px solid #CCC;
+    height: 22px;
+    color: gray;
+    background-image: none !important;
+    outline: none !important;
+    padding: 0;
+    border-radius: 0;
+}
+
+#import-contacting-txt:hover{
+    border-color: orange;
+}
+
+#shopping-contacting-search{
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 3px 20px;
+    background: -moz-linear-gradient(top,  #FFFFFF,  #F2F0F0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F2F0F0));
+	background: -o-linear-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F2F0F0));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F2F0F0'); /* IE6 & IE7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#F2F0F0')"; /* IE8 */
+}
+
+#import-contacting-content, #import-contacting-linkedin-content{
+	height: 350px;
+	overflow: auto;
+	border-bottom: 1px solid #CDCDCD;
+	margin-bottom: 10px;
+}
+.import-contact-item, .import-contact-linkedin-item{
+	border: 1px solid white;
+	float: left;
+	margin: 10px 10px 5px 20px;
+	padding: 6px;
+	width:190px;
+	height: 160px;
+	
+}
+.shopping-contact-item{
+	border: 1px solid white;
+	float: left;
+	margin: 10px 5px 5px 10px;
+	padding: 6px;
+	width: 200px;
+	min-height: 230px;
+    overflow: hidden;        
+}
+
+.shopping-contact-item-content{
+	max-height: 150px;
+}
+
+.import-contact-item, .import-contact-linkedin-item{
+    height: 180px;
+}
+
+.import-contact-item:hover, .import-contact-linkedin-item:hover, .shopping-contact-item:hover{
+	cursor: pointer;
+	border: 1px solid orange;
+	border-radius: 5px;
+	color: black;
+	
+}
+.import-contact-item-header,.import-contact-linkedin-item-header{
+	border: 1px solid #CCC;
+	border-radius: 10px;
+    padding: 3px 0;
+    text-align: center;
+    background-color: #F8F8F8; 
+	
+}
+
+.address-form-content{
+    padding: 15px;
+}
+
+.addressContainer{
+    width: 100%;
+    height: 380px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.addressContainer .addNewArea{
+    padding-top: 15px;
+    float: left;
+    margin-right: 27px;
+    margin-top: 5px;
+}
+
+.shopping-contact-item-header{
+	font-size: 13px !important;
+}
+
+.shopping-contact-add{
+	font-size: 13px !important;
+}
+
+.shopping-contact-login-here{
+	margin-top: 5px;
+	font-size: 13px !important;
+}
+
+.shopping-contact-text-or{
+    margin: 5px 0;
+    text-align: center;
+}
+
+.shopping-contact-add:hover{
+	cursor: pointer;
+}
+
+.import-contact-item-content, .import-contact-linkedin-item-content, .shopping-contact-item-content{
+	padding:5px;
+}
+.dgo-tick{
+	float: right;
+	display: none;
+    position:relative;
+    background-color: white;
+}
+.dgo-tick-import{
+	float: right;
+	display: none;
+}
+.dgo-tick-import-linkedin{
+	float: right;
+	display: none;
+}
+
+.import-contacting-footer{
+    margin-top: -5px;
+}
+
+.import-from{
+    margin-left: 20px;
+    border: 1px solid #CCC;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+        
+}
+
+.import-from:hover{
+    border-color: orange;
+}
+
+.hidden{
+	display: none;
+}
+.shopping-label{
+	display: block;
+	float: left;
+	width: 60px;
+	text-align: right;
+	margin-right:15px;
+	font-weight: bold;
+}
+.address-selected{
+	border: 1px solid #CDCDCD;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+.shopping-contact{
+	border: 1px solid white;
+	float: left;
+	margin: 10px 5px 5px 10px;
+	padding: 6px;
+	width: 200px;
+	height: 220px;
+}

@@ -1,0 +1,42 @@
+.image
+{
+margin:12px 12px 0px 12px;
+height:200px;
+width:200px;
+
+}
+#imagediv
+{
+text-align:center;
+margin: 12px 12px 12px 12px;
+padding: 3px 3px 3px 3px;
+vertical-align:bottom;
+float:left;
+height:240px;
+width:230px;
+ border:1px solid #ccc;  
+ cursor:pointer !important;  
+    -moz-border-radius:5px; -webkit-border-radius:5px;
+}
+
+#files
+{
+
+width:auto;
+
+
+}
+
+#image
+{
+height:815px;
+width:810px;
+clear:both;
+overflow: auto;
+
+display:block;
+margin:15px 100px; padding:20px; 
+border:3px solid #ccc;  
+cursor:pointer !important;  
+    -moz-border-radius:5px; -webkit-border-radius:5px;
+}

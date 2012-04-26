@@ -1,0 +1,71 @@
+/*Customer settings widget*/
+.widget-login-div{
+	margin-bottom: 5px;
+	font-family: Tahoma;
+	overflow: hidden;
+}
+
+.login-buttons{
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom:5px;
+    padding: 0 30px;
+}
+
+.login-user-info{
+	height: 25px;
+	line-height: 25px;
+	clear: both;
+	color: #666;
+	overflow: hidden;
+	font-size: 13px !important;
+}
+
+#hello-icon{
+	border: 1px solid #CCCCCC;
+	background: url('img/icon/login-icon.gif') no-repeat scroll 50% 50%;
+	margin-right: 7px;
+    padding: 3px 12px;
+}
+
+.customer-settings{
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    border-right: 1px solid #CCCCCC;
+    clear: both;
+    color: #666666;
+    font-family: Tahoma;
+    font-size: 13px !important;
+    margin-bottom: 1.5em;
+    background: -moz-linear-gradient(top,  #FFFFFF,  #F2EAF2);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F2EAF2));
+	background: -o-linear-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F2EAF2));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F2EAF2'); /* IE6 & IE7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#F2EAF2')"; /* IE8 */
+	overflow: hidden;
+}
+
+.customer-settings a:hover{
+	text-decoration: none !important;
+}
+
+.customer-settings .setting-menu{
+	border-top: 1px solid #CCCCCC;
+    color: #666666;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.customer-settings .setting-menu:hover{
+    border-color: #ffa42e;
+    cursor: default;
+	cursor: pointer;
+	background: -moz-linear-gradient(top,  #ffbd67,  #ffa42e);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffbd67), to(#ffa42e));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbd67', endColorstr='#ffa42e);
+	
+}

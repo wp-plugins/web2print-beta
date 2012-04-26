@@ -1,0 +1,140 @@
+.textcontent{
+	padding: 0;
+}
+
+.all-design-container{
+	font-size: 13px;
+width: 100%;
+}
+
+.all-design-letfside{
+	float: left;
+	width: 20%;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.all-design-rightside{
+	float: left;
+	width: 78%;
+	margin-left: 5px;
+}
+
+.all-design-pro-cat, .all-design-design-cat{
+	margin: 10px 0 0 0 ;
+}
+
+.all-design-pro-cat-title, .all-design-design-cat-title, .all-design-color-title{
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.all-design-pro-cat-title:hover{
+	cursor: pointer;
+	color: orange;
+}
+
+
+.all-design-pro-cat-menu ul, .all-design-design-cat ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.all-design-pro-cat-menu ul li, .all-design-design-cat ul li{
+	background: url("img/icon/arrow_state_grey_right.png") no-repeat scroll 0px 6px transparent;
+	padding-left: 20px !important; 
+	margin-left: 15px !important;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	font-size: 12px;
+}
+
+.all-design-pro-cat-menu ul li:hover, .all-design-design-cat ul li:hover{
+	cursor: pointer;
+	color: orange;
+}
+
+.all-design-color-contain{
+	margin: 10px 0 0 0;
+	overflow: hidden;
+}
+
+.all-design-color-element{
+	padding: 1px;
+	float: left;
+	border: 1px solid #BDC7D8;
+	margin: 5px 2px;
+	height: 20px;
+}
+
+.all-design-rightside-top{
+	float: right;
+	margin-right: 50px;
+}
+
+.all-design-rightside-sort a{
+	text-decoration: underline;
+}
+
+a.tab-selected{
+	text-decoration: none;
+}
+
+#all-design-rightside-select{
+	padding: 2px;
+	border: 1px solid #BDC7D8;
+	margin-right: 10px;
+}
+
+.all-design-rightside-content{
+	float:left;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.article-selected{
+	text-decoration: underline;
+}
+
+.all-design-rightside-block{
+	float: left;
+	width: 165px;
+	height: 165px;
+	margin: 5px 14px 35px 0;		
+	padding: 0px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+}
+
+.all-design-rightside-block-pic{	
+	text-align: center;
+	display: table-cell;
+	width: 165px;
+	height: 165px;
+	vertical-align: middle;
+	border: 1px solid #BDC7D8;
+	position: relative;
+	float: left;	
+	overflow: hidden;
+}
+
+.all-design-rightside-block-title{
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.all-design-rightside-block img{
+	width: 160px;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.all-design-rightside-block-pic:hover, .all-design-color-element:hover{
+	cursor: pointer;
+	border-color: orange;
+}

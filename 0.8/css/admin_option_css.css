@@ -1,0 +1,40 @@
+/*This file using for admin options css*/
+#dgo-price-control{
+	line-height: 20px;
+}
+
+.price-control-title{
+	border-bottom: 1px solid #CCCCCC;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.price-control-tab1{
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.price-control-tab2{
+	border-top: 1px solid #CCCCCC;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.price-control-tab2-1{
+	float: left;
+}
+
+.price-control-tab2-2{
+	float: right;
+}
+
+.price-control-tab3{
+	clear: both;
+	height: 25px;
+	margin-bottom: 40px;
+}
+
+.price-control-select{
+	width: 31%;
+	margin-right: 0.7%;
+}

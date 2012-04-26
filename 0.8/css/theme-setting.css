@@ -1,0 +1,654 @@
+/*Css for theme setting page*/
+.order-product-main-container{
+	border:solid 1px;
+	width:100%;
+	height: auto;
+	overflow: hidden;
+}
+.theme-container{
+	border: 1px solid #ccc;
+	height: auto;
+	width: 1000px;
+	margin: 15px;
+}
+
+.theme-page-title{
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0px;
+	margin: 0px 40px;
+}
+
+.theme-page-viewer{
+    border-bottom: 1px solid #CCCCCC;
+    margin: 20px 60px;
+    overflow: hidden;
+}
+
+.theme-color-boxes1{
+	width: 260px;
+	float: left;
+}
+
+.button-other-design{
+	float: right;
+	width: 210px;
+	margin-bottom:-10px;
+}
+
+.color-box-container{
+	width: 250px;
+	float: right;
+	clear: both;
+	margin-top: 30px;
+	height: 50px;
+}
+
+.color-box-info{
+	float: left;
+}
+
+.color-box-info-input input{
+	width: 90px;
+	margin-top: 3px;
+	text-transform: uppercase;
+}
+.color-box-info-input8 input{
+    margin-top: 18px;
+    text-transform: uppercase;
+    width: 2px;
+    visibility: hidden;
+}
+.color-box-info-input12 input{
+    margin-left: 50px;
+    margin-top: -33px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 2px;
+    z-index: 1;
+    visibility: hidden;
+}
+.color-box-selector .color-selector-box  {
+	margin-right:30px;
+}
+
+.color-selector-box {
+    background-image: url("img/icon/select_box.gif");
+    cursor: pointer;
+    height: 42px;
+    width: 42px;
+	float: right;
+}
+.color-selector-box11{
+    background-image: url("img/icon/gradient_box.gif");
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: 127px;
+    width: 40px;
+    z-index: 10;
+}
+.color-selector-box2{
+	background-image: url("img/icon/gradient_box.gif");
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    z-index: 10;
+}
+.color-selector-box13{
+    background-image: url("img/icon/gradient_box.gif");
+    cursor: pointer;
+    height: 30px;
+    left: 60px;
+    position: absolute;
+    top: 138px;
+    width: 40px;
+    z-index: 10;
+}
+.show-bg-gra{
+    border: 4px solid #e6e6e6;
+    float: right;
+    height: 34px;
+    margin-right: 30px;
+  	margin-top: 10px;
+    width: 34px;
+    border-radius:2px 2px 2px 2px;
+}
+.color-box-info-input11 input{
+    margin-left: 140px;
+    margin-top: -27px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 2px;
+    z-index: 2;
+    visibility: hidden;
+}
+.color-box-selector13{
+	position: relative;
+}
+.color-box-info-input2 input{
+	visibility: hidden;
+}
+.color-box-info-input13 input{
+	visibility: hidden;
+	margin-top: -15px;
+}
+.color-selector-box8{
+    background-image: url("img/icon/gradient_box.gif");
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    margin-top: 20px;
+    width: 40px;
+    position: absolute;
+}
+.color-box-selector-right,.color-box-selector{
+	position: relative;
+}
+.color-selector-box5{
+    background-image: url("img/icon/gradient_box.gif");
+    cursor: pointer;
+    height: 30px;
+    margin-top: 15px;
+    position: absolute;
+    right: 50px;
+    width: 40px;
+}
+.gradient-show{
+    border: 4px solid #e6e6e6;
+    height: 34px;
+	margin-right:30px;
+	float:right;
+    margin-top: 7px;
+    width: 34px;
+    border-radius:2px 2px 2px 2px;
+}
+.show-head-gra{
+	border: 4px solid #e6e6e6;
+    height: 34px;
+    width: 34px;
+    margin-left: 40px;
+    margin-top:5px;
+    position: absolute;
+    border-radius:2px 2px 2px 2px;
+}
+.color-selector-box12{
+    background-image: url("img/icon/gradient_box.gif");
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: -60px;
+    width: 40px;
+    position: absolute;
+    z-index: 10;
+}
+.theme-widget-viewer{
+	border: 1px solid #DDDDDD;
+	width: 268px;
+	float: left;
+	padding: 25px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.theme-color-boxes2{
+    float: left;
+    height: auto;
+    width: 290px;
+}
+
+.button-reset-theme{
+	float: right;
+}
+
+.txt-shadow-setting{
+	float:left;
+	margin: -35px 0 0 35px;
+	width: 160px;
+}
+
+.txt-shadow-text{
+	margin-bottom: 3px;
+	margin-left:-25px;
+	 
+}
+.shadow-slider{
+	margin-left: 15px;
+}
+
+.txt-shadow-input input{
+	float: left;
+	width: 90px;
+	text-align: center;
+	height: 23px;
+	margin-top: 1px;
+	line-height: 23px;
+	font-size: 13px !important;
+}
+
+.radius-setting-text{
+	text-align: right;
+}
+
+.txt-shadow-button{
+	float: left;
+	width: 60px;
+	text-align: center;
+	height: 20px;
+	margin: 1px 0 0 10px;
+	line-height: 20px;
+	font-size: 13px !important; 
+}
+
+.template-radius-setting{
+	float: right;
+	width: 200px;
+	margin-top: 17px;
+	margin-right: 16px;
+}
+
+.radius-setting-input input{
+	width: 100px;
+	text-align: center;
+}
+
+.radius-setting-button{
+	float: left;
+	width: 60px;
+	text-align: center;
+	height: 20px;
+	margin-top: 1px;
+	line-height: 20px;
+	font-size: 13px !important; 
+}
+
+.radius-setting-input{
+	float: right;
+}
+
+.template-bt-save{
+    clear: both;
+    float: left;
+    font-size: 25px;
+    line-height: 45px;
+    margin: 27px 10px 10px 0;
+    float: right;
+    height: 50px;
+    width: 210px;
+    text-align: center;
+}
+
+.color-box-container-right{
+	width: 275px;
+	float: left;
+	clear: both;
+	margin-top: 22px;
+	height: 50px;
+}
+
+.color-box-selector-right .color-selector-box{
+	float: left;
+	margin-left: 40px;
+}
+
+.color-box-info-right{
+	float: right;
+}
+.color-box-info-right5{
+    float: right;
+    margin-left: 95px;
+    margin-top: -10px;
+}
+.color-box-info-input5 input{
+	margin-top: 15px;
+    text-transform: uppercase;
+    width: 2px;
+	visibility: hidden;
+}
+
+
+/* Order Div CSS */
+/* The Plugin in the sidebar */
+.theme-login{
+	height: 35px;
+	color: #787878;
+}
+
+.theme-login-info{
+	float: left;
+	width: 60%;
+	margin-left: 5px;
+}
+
+.user-profile-picture{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #CCCCCC;
+}
+
+.theme-login-botton{
+	float: right;
+	margin-right: 10px;
+}
+
+#typeSel, #materialSel, #motifsel ,#runSel, #productSel{
+}
+
+.order-product-name{
+    padding-left: 20px;
+    margin: 10px 0px;
+}
+
+.order-product-main{
+    position: relative;
+    float: right;
+    width:100%;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	behavior:url(PIE.htc);
+}
+
+.order-product-main select{
+	-moz-border-radius: 0px;
+}
+
+.lang-sel{
+	float: left;
+	margin-left: 9px;
+	width: 94px;
+}
+
+.curSelect{
+	float: left;
+	width: 72px;
+}
+
+.dimSelect{
+	float: left;
+	width: 72px;
+}
+
+.order-product-title{
+    border-bottom: 1px solid gray;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 45px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.order-product-header{
+	border-bottom: 1px solid gray;
+	padding: 5px;
+    text-align: center;
+    height:25px;
+}
+
+.order-product-settings{
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.currencyChange{
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin: 8px 0px 0px 13px;
+    padding: 2px 8px;
+}
+
+.dimensionChange{
+    width: 20%;
+    text-align: center;
+    float: right;
+    margin: 8px 15px 0px 0px;
+    padding: 2px 8px;
+}
+
+.order-product-type{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.order-product-material{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.order-product-type span{
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.order-product-material span{
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.order-product-content{
+    padding: 15px 0px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.order-product-content-child{
+    clear: both;
+    height: 20px;
+    overflow: hidden;
+    padding: 2px 10px;
+    cursor: default;
+	line-height: 20px;
+}
+
+.order-product-content-child .content-dimension{
+    float: left;
+    width: 60%;    
+}
+
+.order-product-content-child .content-price{
+   float: right;
+   padding-right: 5px;
+} 
+.bt-uploader-container{
+	border:solid 1px;
+	padding: 10px 0px;
+    width:90%;
+    margin-bottom: 20px;
+	font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    height: 22px;
+    overflow: hidden;
+}
+.bt-uploader{
+    padding: 10px 0px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#buttonMultiUpload{
+	text-decoration: none;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    cursor: pointer;
+    font-size: 21px;
+    line-height: 21px;
+    text-decoration: none;
+    margin-top: -10px;
+	height:22px;
+}
+
+.theme-page-gallery{
+	height: auto;
+	margin: 0px 40px;
+	width: 920px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+.theme-gallery-content{
+	height: 590px;
+	padding: 20px 0px 10px 27.5px;
+}
+
+.theme-gallery-title{
+	height: 20px;
+	padding-top: 10px;
+}
+
+.theme-gallery-child{
+	width: 150px;
+	height: 180px;
+	float: left;
+	margin-left: 62.5px;
+	margin-bottom: 20px;
+}
+
+.theme-gallery-child:hover{
+	color: #0c588a;
+}
+
+.theme-child-content{
+	border: 1px solid #CCC;
+	height: 150px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.theme-child-content:hover{
+	border-color: #BBBBBB;
+	cursor: pointer;
+	box-shadow: 0px 0px 20px #AAAAAA;
+	-moz-box-shadow: 0px 0px 20px #AAAAAA;
+	-webkit-box-shadow:0px 0px 20px #AAAAAA;
+	opacity: 0.9;
+}
+
+.theme-child-component{
+	height: 150px;
+}
+.header-text{
+	margin-left: 20px;
+    margin-top: 36px;
+    width: 100%;
+}
+.header-text-setting-input{
+    float: left;
+    margin-left: 20px;
+    width: 40%;	
+}
+.language-wrapper{
+    float: right;
+    margin-right: 50px;
+    width: 20%;
+}
+.color-box-info-input{
+	float:left;
+}
+.color-box-info-input{
+	float:left;
+}
+.radius-slider-cover{
+    border: 2px solid #808080;
+    border-radius: 15px 15px 15px 15px !important;
+    height: 13px;
+    margin-top: 15px;
+    width: 82%;
+    float: right;
+    
+}
+.radius-slider-process{
+	border-radius: 20px 20px 20px 20px;
+    height: 13px;
+    position: relative;
+    top: -11px;
+}
+.shadow-slider-cover{
+    border: 2px solid #808080;
+    border-radius: 15px 15px 15px 15px !important;
+    height: 13px;
+    margin-left: -20px;
+    margin-top: 15px;
+    width: 170px;
+}
+.txt-header-shadow-text{
+	text-align: right;
+}
+.shadow-slider-process{
+	border-radius: 20px 20px 20px 20px;
+    height: 13px;
+    position: relative;
+    top: -11px;
+}
+.shadow-header-slider{
+	margin-right: 15px;
+}
+.radius-slider{
+	margin-right: 15px;
+}
+.shadow-header-slider-cover{
+    border: 2px solid #808080;
+    border-radius: 15px 15px 15px 15px !important;
+    height: 13px;
+    margin-top: 15px;
+    width: 168px;
+}
+.shadow-header-slider-process{
+	border-radius: 20px 20px 20px 20px;
+    height: 13px;
+    position: relative;
+    top: -11px;
+}
+.txt-header-shadow-setting{
+    float: right;
+    margin-right: 15px;
+    margin-top: 17px;
+    width: 170px
+}
+.color-box-info-text1 span,.color-box-info-text2 span {
+	font-weight:bold;
+}
+.text-endprice{
+    font-size: 11px;
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+#vat-price-input{
+	width: 90%;
+}
+#header-input{
+	width: 95%;
+}
+#button-input{
+	width: 80%;
+}
+.color-box-info-input-r input{
+	margin-top: 3px;
+    text-transform: uppercase;
+    width: 90px;
+    float:right;
+}
+.white-template{ background: url("img/template/white_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.blue-template{ background: url("img/template/blue_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.silver-template{ background: url("img/template/silver_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.black-template{ background: url("img/template/black_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.red-template{ background: url("img/template/red_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.atomic-template{ background: url("img/template/atomic_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.cloud-template{ background: url("img/template/cloud_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.shadow-template{ background: url("img/template/shadow_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.green-template{ background: url("img/template/green_screen.jpg") no-repeat scroll 50% 50% transparent; }
+.brown-template{ background: url("img/template/brown_screen.jpg") no-repeat scroll 50% 50% transparent; }

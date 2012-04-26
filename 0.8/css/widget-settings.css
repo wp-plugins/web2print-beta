@@ -1,0 +1,142 @@
+/*widget settings css*/
+.widget-maintain{
+    font-size: 14px;
+	overflow: hidden;
+    margin: 37px 20px 40px 20px;
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    background: #efefef;
+}
+
+.cal-setting-div{
+    font-size: 13px;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    background: #ffffff;
+    -moz-border-radius: 12px 12px 10px 10px;
+    border-radius: 12px 12px 10px 10px; 
+    -webkit-border-radius: 12px 12px 10px 10px; 
+}
+
+.cal-tittle-div{
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    background: #dedede;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px; 
+}
+
+.cal-tittle-div div:first-child{
+    float: left;
+    padding-left: 10px;
+}
+
+.title-icon-toogle{
+    cursor: pointer;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.widget-show{
+    background: url('img/icon/arrow_down.png') no-repeat scroll 50% 50%; 
+}
+
+.widget-hide{
+    background: url('img/icon/arrow_up.png') no-repeat scroll 50% 50%; 
+}
+
+.cal-content-div{
+    padding-bottom: 20px;
+}
+
+.first-content-div{ border-bottom: 1px solid #ddd; height: 40px; padding-top: 10px; padding-left: 10px; } 
+.second-content-div{ border-bottom: 1px solid #ddd; overflow: hidden;}
+.second-1-div{ padding-top: 10px; }   
+.second-1-div div:first-child{ float: left; padding-left: 10px; } 
+.second-1-div div:last-child{ float: right; padding-right: 10px; }  
+.second-2-div{ clear: both; padding: 10px 0px 10px 10px; }  
+.second-2-div select{ width: 88px; margin-right: 3px; }   
+.third-content-div{ border-bottom: 1px solid #ddd; padding-bottom: 30px; }   
+.third-1-div{ padding-top: 10px; }    
+.third-1-div div:first-child{ float: left; padding-left: 10px; }   
+.third-1-div div:last-child{  float: right; padding-right: 10px; }   
+.third-2-div{ clear: both; padding-top: 10px; }     
+.third-2-div div:first-child{ float: left; padding-left: 10px; }   
+.third-2-div div:last-child{ float: right; padding-right: 10px; }    
+.third-2-div select{ width: 110px; margin-left: 10px; }
+.footer-content-div{ padding: 15px 10px; } 
+.footer-1-div{ float: left; color: #888;}
+.footer-1-div span:first-child:hover{cursor: pointer; color: #222;}
+.footer-1-div span:last-child:hover{cursor: pointer; color: #222;}
+.footer-2-div{ float: right; width: 40%; text-align: right; margin-bottom: 10px}
+.loading-icon{ width: 19px; height: 17px; float: left; }
+.loading-current { background: url('img/icon/ajax-loading.gif') no-repeat scroll 50% 50%;}  
+.footer-2-div span:hover{ color: #222; border-color: #bbb;}
+
+.cus-setting-div{
+    font-size: 13px;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    background: #ffffff;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.tem-setting-div{
+    font-size: 13px;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    background: #ffffff;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.page-options-block{
+	width: 96%;
+	overflow: hidden;
+	
+	height: 25px;
+	line-height: 25px;
+
+}
+
+.page-options-block:hover{
+	cursor: pointer;
+}
+
+.page-options-block-selected{
+	background-color: #E3E3E3;
+}
+
+.page-options-input{
+	float: left;
+	overflow: hidden;
+	width: 8%;
+	line-height: 20px;
+	margin: 4px 0 0 5px;
+}
+
+.page-options-label{
+	width: 70%;
+	float: left;
+}
+
+.switch-dropdown-items{
+	width: 50px !important;
+	padding: 2px !important;
+}

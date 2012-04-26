@@ -1,0 +1,284 @@
+.DesignContainer{
+width: 100%;
+height:310px;
+}
+
+.nextStepUpload img{
+float:left;
+margin-left :10px;
+margin-top:6px;
+}
+.imageH{
+    
+    width:400px;
+}
+.imageV{
+    height: 350px;
+}
+
+.imageuploadedH{
+    width:150px;
+    
+}
+.imageuploadedV{
+    height:150px;
+    
+}
+.imageuploaded{
+    width:150px;
+    
+    height:150px;
+}
+#buttonUpload{
+   cursor: pointer; cursor: hand;
+}
+#buttonUpload input[type=file] {
+  cursor: pointer; cursor: hand;
+}
+
+.imageforDesign{
+float:left;
+margin-top: 10px;
+margin-left: 20px;
+}
+.coltrolDesign
+{
+float:right;
+width:30%;
+margin-right: 20px;
+margin-top: 10px;
+}
+.btlogin {
+width:60px;
+height:20px;
+float: right;
+}
+.divlayout1{
+
+background:gray;
+opacity: 0.5;
+height:100%;
+position:absolute;
+top: 0px;
+}
+
+.divlayout2{
+
+background:gray;
+opacity: 0.5;
+height:100%;
+position:absolute;
+top: 0px;
+
+}
+
+.reg img{
+width:93.25px;
+height:30px;
+}
+
+.imageDesign{
+    position:relative;
+  
+    overflow: hidden !important;
+     -moz-background-size: 0% auto;
+   
+    background-color: #FEFAFA;
+  
+    background-repeat: no-repeat;
+    border: 5px solid #EDF1F3;
+ 
+    margin: 5px auto 0px;
+    
+    }
+.zoom{
+width:80%;
+height:5px;
+}
+
+.layouthide{
+
+opacity: 0.7;
+position:fixed !important;
+position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+border:1px solid #cecece;
+z-index:1003;
+}
+.cropped{
+z-index:1005;
+position:fixed;
+top:30%;
+left:40%;
+   
+   
+}
+
+.gotoorder{
+position:relative;
+
+}
+.designdivcontrol{
+border:1px solid #ccc;
+height:66px;
+width:100%;
+margin-top:3px;
+ text-align: center ;
+}
+.zoomcontrol .zoom{
+margin-top:15px;
+margin-left:15px; 
+}
+
+.zoomcontrol .zoominfo{
+    margin-top:5px;
+}
+
+.footercontrol {   
+    float: left;
+    width: 660px;
+}
+
+.deletecontrol
+{
+    width:30%;
+    float:left;
+    margin-left: 50px;
+}
+.previewcontrol{
+    width:30%;
+    float:left;
+    margin-left: 50px;
+}
+
+.resetcontrol{
+    float: left;
+    margin-left: 50px;
+}
+.nextcontrol{
+    width:700px;
+}
+.gotoorder{
+    float:right;
+   font-size: 20px !important;
+    height: 30px !important;
+    padding-top: 5px !important;
+    width: 150px;
+}
+
+.designcontrol{
+    width:70px;
+    height:20px;
+    margin:15px;
+    text-align: center;
+    float:right;
+    margin-right:15px !important;
+}
+
+.footerontroldiv span:hover
+{
+    cursor: pointer;     
+}
+
+.addtextcontrol select{
+    width:80px !important;
+    margin-top:15px;
+    margin-left:15px;
+    float:left;
+}
+
+.rotatecontrol img{
+    margin-top:15px;
+    margin-left:15px;
+    width:30px;
+}
+
+.gotoorder{
+    width:150px;
+    padding:5px !important;
+}
+
+.footerontroldiv span
+{
+    position:relative;
+}
+
+.Shaddowimage{
+    width:100%;
+    height:10px;
+}
+
+.imageposoder select{
+    float:left;
+}
+
+.layoutimgdiv{    
+    position:absolute;
+    display: none;     
+}
+
+.layoutimgdiv img{
+    border: 3px solid gray;
+}
+
+.imageforcropped{
+      border: 3px solid white;
+}
+
+.cropped img{
+    border:3px solid white;
+}
+
+.Designwapper{
+    height:320px;
+}
+
+.shopcartheight{
+    height:85px;
+    overflow:hidden;
+}
+
+.carttitle{
+    height:35px;
+}
+
+.expand{
+    margin-top:53px;
+}
+
+.editImageuploaded span{
+    background:#D3D3D3;
+    padding:5px 3px 0px 3px; 
+    border:1px solid #555555;
+     -moz-border-radius:5px; 
+    -webkit-border-radius:5px;
+}
+
+.editImageuploaded span img{
+    margin-top:7px;
+}
+.imgbton :hover{
+     cursor:pointer !important;  
+}
+.expand{
+    float:right;
+}
+
+.imageDesign{
+      -moz-box-shadow: 0 0 1.5em #565656;
+    -webkit-box-shadow: 0 0 1em #565656;
+            box-shadow: 0 0 1em #565656;
+}
+.Shaddowimage{
+    display:none;
+}
+
+.imagebox{
+    height:0px;
+    overflow:hidden;
+    width:100%;
+}
