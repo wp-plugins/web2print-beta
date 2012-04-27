@@ -1,0 +1,1070 @@
+/* FIXES */
+.ui-widget-overlay {
+    position: fixed !important;
+    /* <---------- */
+}
+.dgo-ui-element-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: Black;
+    z-index: 99999999;
+}
+.dgo-ui-element-overlay img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+.dgo-ui-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+}
+.dgo-ui-overlay-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=20);
+    -moz-opacity: 0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+    display: none;
+}
+.dgo-ui-overlay-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../gfx/progress.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: none;
+}
+/* delivergo ui-design */
+.ui-resizable-se, .ui-resizable-ne, .ui-resizable-nw, .ui-resizable-sw {
+    position: absolute;
+    /*background-color: White; 	border: solid 1px Red;*/
+    width: 8px;
+    height: 8px;
+}
+div#dgo-da .ui-resizable-se, div#dgo-da .ui-resizable-ne, div#dgo-da .ui-resizable-nw, div#dgo-da .ui-resizable-sw {
+    background-color: White;
+    border: solid 1px Red;
+}
+.ui-resizable-e, .ui-resizable-n, .ui-resizable-w, .ui-resizable-s {
+    position: absolute;
+}
+.ui-resizable-n {
+    top: -5px;
+    height: 10px;
+    cursor: n-resize;
+}
+.ui-resizable-e {
+    right: -5px;
+    width: 10px;
+    cursor: e-resize;
+}
+.ui-resizable-w {
+    top: 5px;
+    width: 10px;
+    cursor: w-resize;
+}
+.ui-resizable-s {
+    bottom: -5px;
+    margin-left: 0px;
+    height: 10px;
+    cursor: s-resize;
+}
+.ui-resizable-w {
+    left: -5px;
+    margin-top: -5px;
+    cursor: w-resize;
+}
+.ui-resizable-se {
+    bottom: -5px;
+    right: -5px;
+    z-index: 999999 !important;
+    cursor: se-resize;
+}
+.ui-resizable-ne {
+    top: -5px;
+    right: -5px;
+    cursor: ne-resize;
+    z-index: 999999 !important;
+}
+.ui-resizable-nw {
+    top: -5px;
+    cursor: nw-resize;
+    z-index: 999999 !important;
+}
+.ui-resizable-sw {
+    bottom: -5px;
+    cursor: sw-resize;
+    z-index: 999999 !important;
+}
+.dgo-ui-overlay-disable {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    background-color: Red;
+}
+.dgo-ui-inline {
+    display: inline;
+}
+.dgo-ui-button {
+    cursor: pointer;
+    margin: 0px;
+    padding: 4px 4px 4px 4px;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+}
+.dgo-ui-button-small {
+    cursor: pointer;
+    margin: 0px;
+    padding: 3px 1px 3px 1px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.dgo-ui-button-tiny {
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0;
+}
+.dgo-ui-dialog {
+    background-color: White;
+    border: solid 1px Black;
+    padding: 15px;
+}
+.dgo-ui-dialog-row {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+.dgo-ui-commandbar {
+    margin-top: 5px;
+    text-align: right;
+}
+.dgo-ui-link {
+    cursor: pointer;
+}
+.dgo-ui-button-icon-solo span {
+    width: 16px;
+}
+.dgo-ui-icon-i {
+    height: 16px;
+    width: 16px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+/* -ICONS---------------------------------------------------------------- */
+.dgo-ui-icon-accept {
+    background-image: url(../gfx/icons/accept.png);
+}
+.dgo-ui-icon-remove {
+    background-image: url(../gfx/icons/cross.png);
+}
+.dgo-ui-icon-wrench {
+    background-image: url(../gfx/icons/wrench.png);
+}
+.dgo-ui-icon-background {
+    background-image: url(../gfx/icons/photo.png);
+}
+.dgo-ui-icon-text_left {
+    background-image: url(../gfx/icons/text_left.png);
+}
+.dgo-ui-icon-text_center {
+    background-image: url(../gfx/icons/text_center.png);
+}
+.dgo-ui-icon-text_right {
+    background-image: url(../gfx/icons/text_right.png);
+}
+.dgo-ui-icon-text_bold {
+    background-image: url(../gfx/icons/text_bold.png);
+}
+.dgo-ui-icon-text_italic {
+    background-image: url(../gfx/icons/text_italic.png);
+}
+.dgo-ui-icon-text_underline {
+    background-image: url(../gfx/icons/text_under.png);
+}
+.dgo-ui-icon-north {
+    background-image: url(../gfx/icons/arrow_up.png);
+}
+.dgo-ui-icon-south {
+    background-image: url(../gfx/icons/arrow_down.png);
+}
+.dgo-ui-icon-west {
+    background-image: url(../gfx/icons/arrow_left.png);
+}
+.dgo-ui-icon-east {
+    background-image: url(../gfx/icons/arrow_right.png);
+}
+.dgo-ui-icon-flip-h {
+    background-image: url(../gfx/icons/shape_flip_horizontal.png);
+}
+.dgo-ui-icon-flip-v {
+    background-image: url(../gfx/icons/shape_flip_vertical.png);
+}
+.dgo-ui-icon-rotate-l {
+    background-image: url(../gfx/icons/shape_rotate_anticlockwise.png);
+}
+.dgo-ui-icon-rotate-r {
+    background-image: url(../gfx/icons/shape_rotate_clockwise.png);
+}
+.dgo-ui-icon-locked {
+    background-image: url(../gfx/icons/lock.png);
+}
+.dgo-ui-icon-unlocked {
+    background-image: url(../gfx/icons/lock_open.png);
+}
+.dgo-ui-icon-edit {
+    background-image: url(../gfx/icons/pencil.png);
+}
+.dgo-ui-icon-replaceImage {
+    background-image: url(../gfx/icons/picture_go.png);
+}
+/* ---------------------------------------------------------------------- */
+
+/* JQUERY UI */
+
+.ui-state-disabled {
+    border: 1px solid #D3D3D3;
+}
+.ui-tabs-panel {
+    padding: 3px !important;
+    /*overflow: hidden !important;*/
+}
+.ui-accordion .ui-accordion-content {
+    overflow: visible !important;
+}
+div.design-admin {
+    font-family: Arial;
+    font-size: 100%;
+    background: silver;
+    display: block;
+    border: solid 3px Red;
+    padding: 8px;
+    margin: 1px;
+}
+.design-admin .element {
+    font-family: Arial;
+    font-size: 100%;
+    width: 250px;
+    border: solid 1px Black;
+    margin: 1px;
+    padding: 2px;
+}
+.design-admin .element-short {
+    font-family: Arial;
+    font-size: 100%;
+    width: 50px;
+    border: solid 1px Black;
+    margin: 1px;
+    padding: 2px;
+}
+.design-admin .label {
+    width: 100px;
+    float: left;
+}
+.design-admin button {
+    margin: 4px;
+    display: block;
+}
+.error {
+    font-size: 9pt;
+    font-weight: normal;
+    white-space: pre;
+    font-family: Courier;
+}
+.error .head {
+    border-left: solid 4px black;
+    display: inline-block;
+    padding: 5px;
+    color: White;
+    background-color: Red;
+    font-weight: bold;
+    white-space: normal;
+    font-size: 10pt;
+    font-family: Arial;
+}
+.error .detail {
+    color: Black;
+}
+.hidden {
+    display: none;
+}
+.dgo-ui-dialog-propspopup {
+    padding: 5px !important;
+}
+.dgo-ui-dialog-propspopup textarea {
+    border: 1px solid gray;
+    margin: 2px;
+    vertical-align: middle;
+    width: 99%;
+}
+div#dgo-da-debug {
+    display: none;
+}
+div#dgo-da {
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.dgo-da-info {
+    position: relative;
+    vertical-align: middle;
+    padding: 0px;
+    top: 50%;
+}
+.dgo-da-info-min {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    z-index: 99999;
+}
+.dgo-da-info-label {
+    position: absolute;
+    z-index: 99999;
+    opacity: 0.9;
+    top: -20px;
+    color: Red;
+    background-color: White;
+    padding: 2px;
+    white-space: nowrap;
+}
+.dgo-da-info-minNorth {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+}
+.dgo-da-info-minSouth {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+}
+.dgo-da-info-minEast {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+}
+.dgo-da-info-minWest {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+}
+.dgo-da-draggable {
+    border: 1px solid Yellow !important;
+}
+.dgo-da-droppable {
+    border: 1px solid Green !important;
+}
+div#dgo-da a.dgo-de-text {
+    position: absolute;
+    /*background-color:#EEEEfE;*/
+}
+div#dgo-da a.ui-state-disabled {
+    opacity: 1 !important;
+}
+div#dgo-da .dgo-de-itemdetails {
+    padding-bottom: 8px;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+/* Item infos like resolution warner */
+div#dgo-da .dgo-de-iteminfos {
+    padding-top: 8px;    
+    padding-right: 8px;    
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+div#dgo-da .dgo-de-iteminfos .label {
+    padding: 2px;       
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    white-space: nowrap;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+div#dgo-da .dgo-de-iteminfos .icon {
+    position: relative;
+    border: none;
+}
+/* END */
+
+div#dgo-da .dgo-de-replaceInfo {
+    background-color: White;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+div#dgo-da .dgo-de-replaceInfo span {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    font-size: 20pt;
+    position: relative;
+    color: Black;
+}
+.dgo-upload-itemdetails button {
+    display: inline-block;
+}
+div#dgo-da a.dgo-de-image {
+    position: absolute;
+    /*background-color:#EEEEfE;*/ /*overflow: hidden;*/
+}
+.dgo-de-draggable img {
+    border: solid 1px Yellow;
+}
+.dgo-de-draggable {
+    margin: -1px;
+    opacity: 0.5;
+}
+.dgo-de-droppable img {
+    border: solid 1px Green;
+}
+.dgo-de-droppable {
+    margin: -1px;
+    opacity: 1;
+}
+div#dgo-da-wrapper button {
+    float: right;
+    vertical-align: middle;
+    padding: 2px;
+    margin-left: 5px;
+}
+/* Text Elements */
+div#dgo-da a.dgo-de-hover {
+}
+div#dgo-da a.dgo-de-hover img {
+    margin: -1px;
+    border: 1px dotted #FF00FF;
+}
+div#dgo-da a.dgo-de-selected {
+}
+div#dgo-da a.dgo-de-selected img {
+    margin: -1px;
+    border: 1px solid #FF0000;
+}
+div#dgo-da a.dgo-de-hover, div#dgo-da a.dgo-de-hover:hover {
+    cursor: pointer;
+}
+div#dgo-da .ui-accordion-header {
+    cursor: pointer;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    position: relative;
+}
+.dgo-ui-button-icon-locked, .dgo-ui-button-icon-unlocked {
+}
+.dgo-ui-button-icon-locked span {
+    background-image: url(../gfx/icons/lock.png);
+}
+.dgo-ui-button-icon-unlocked span {
+    background-image: url(../gfx/icons/lock_open.png);
+}
+div#dgo-da div#fontstyle label.fontstyle {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 1px 5px 1px 5px;
+}
+div#dgo-da .dgo-design-ctlitem-deleteBtn {
+    margin: 0px;
+}
+div#dgo-da div.control div.control-row {
+    display: block;
+    float: left;
+}
+/* Image Controls */
+
+#dgo-dc .dgo-dc-image input, #dgo-dc .dgo-dc-image textarea {
+    border: solid 1px Gray;
+    width: 98%;
+    display: block;
+}
+.dgo-dc-image-thumb {
+    border: solid 1px Gray;
+    display: inline-block;
+    width: 82px;
+    height: 82px;
+    vertical-align: middle;
+    padding: 5px;
+}
+.dgo-dc-image .dgo-dc-row {
+    white-space: nowrap;
+}
+.dgo-dc-row * {
+    vertical-align: top;
+}
+.dgo-dc-item h3 {
+    height: 24px;
+}
+.dgo-dc-item h3.ui-state-hover {
+    border-color: Red !important;
+}
+.dgo-dc-image-control {
+    display: inline-block;
+    vertical-align: middle;
+    height: 82px;
+    border: solid 1px Gray;
+    padding: 5px;
+    white-space: nowrap;
+}
+.dgo-dc-image-meta {
+    width: 49%;
+}
+.dgo-dc-image-nav {
+    width: 82px;
+}
+.dgo-dc-image-rotateLeftBtn {
+    position: absolute;
+}
+.dgo-dc-image-rotateRightBtn {
+    margin-left: 56px;
+    position: absolute;
+}
+.dgo-dc-image-flipHBtn {
+    margin-top: 56px;
+    position: absolute;
+}
+.dgo-dc-image-flipVBtn {
+    margin-top: 56px;
+    margin-left: 56px;
+    position: absolute;
+}
+.dgo-dc-image-northBtn {
+    margin-left: 28px;
+    position: absolute;
+}
+.dgo-dc-image-southBtn {
+    margin-top: 56px;
+    margin-left: 28px;
+    position: absolute;
+}
+.dgo-dc-image-westBtn {
+    margin-left: 0px;
+    margin-top: 28px;
+    position: absolute;
+}
+.dgo-dc-image-eastBtn {
+    margin-left: 56px;
+    margin-top: 28px;
+    position: absolute;
+}
+div#dgo-da div.control div.dgo-design-image-controls {
+    display: block;
+}
+.dgo-dc-image-template .dgo-dc-image-flipHBtn, .dgo-dc-image-template .dgo-dc-image-flipVBtn, .dgo-dc-image-template .dgo-dc-image-rotateLeftBtn, .dgo-dc-image-template .dgo-dc-image-rotateRightBtn {
+    display: none;
+}
+.dgo-dc-header a {
+}
+.dgo-dc-header {
+}
+#editElementProperties input {
+    border: solid 1px Gray;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    width: 150px;
+    height: 25px;
+}
+.dgo-dc-headercontrols {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2px;
+}
+.dgo-dc-header-label {
+    vertical-align: middle;
+    font-weight: bold;
+}
+.dgo-dc-header-name {
+    vertical-align: middle;
+}
+.dgo-dc-headercontrols button {
+    float: right;
+}
+div#dgo-dc .dgo-dc-header-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+}
+div#dgo-dc .dgo-dc-header-image img {
+    border: none;
+}
+div#dgo-dc .dgo-dc-header-text {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ffffff url(../gfx/icons/text_dropcaps.png) no-repeat scroll right center;
+    margin: 0px 2px 0px 0px;
+}
+div#dgo-dc select, div#dgo-dc textbox {
+    border: 1px solid gray;
+}
+div#dgo-dc button.delete {
+    float: right;
+    vertical-align: middle;
+    padding: 2px;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+div#dgo-dc .dgo-dc-text textarea#text {
+    border: 1px solid gray;
+    margin: 2px;
+    vertical-align: middle;
+    width: 98%;
+}
+div#dgo-dc input.fontsize {
+    width: 20px;
+    vertical-align: top;
+}
+div#dgo-dc div.ui-selected {
+    background-color: #FFFEF6;
+    border: 1px solid red;
+}
+div#dgo-dc div.ui-selected textarea, div#dgo-dc div.ui-selected input {
+    background-color: #FFFEF6;
+}
+/* PreviewContainer */
+.dgo-db-page {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    *
+    display:inline;
+    zoom:1;
+    vertical-align:top;
+}
+.dgo-db-page .dgo-db-page-image {
+    border: solid 1px gray;
+    cursor: pointer;
+}
+.dgo-db-page-selected .dgo-db-page-image {
+    border: solid 1px red !important;
+    cursor: auto;
+}
+.dgo-db-page .dgo-db-page-holder {
+    /*border-top: solid 1px silver; 	border-left: solid 1px silver; 	border-bottom: solid 1px silver; 	border-right: solid 1px silver;*/
+    cursor: pointer;
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dgo-db-page .dgo-db-page-link {
+    border: none;
+}
+.dgo-db-page .dgo-db-page-rating {
+    text-align: center;
+}
+.dgo-db-page .dgo-db-page-label {
+    text-align: center;
+}
+.dgo-db-page .dgo-db-page-hidden {
+    text-align: center;
+    background-color: #FFF8DC;
+}
+.dgo-db-page-control {
+    vertical-align: top;
+    position: absolute;
+    margin-top: 50px;
+}
+.Template {
+    display: none;
+}
+/* ------------------------------------------ User Comments */
+.user-comment {
+    margin: 50px;
+    padding: 4px;
+    display: table-row;
+}
+.user-comment .button {
+    padding: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    float: right;
+    margin-top: -3px;
+}
+.user-comment .rating {
+    display: block;
+}
+.user-comment .rating ul {
+    display: inline;
+}
+.user-comment .avatar {
+    display: table-cell;
+}
+.user-comment .wrapper {
+    display: table-cell;
+    vertical-align: top;
+}
+.user-comment .content {
+    white-space: normal;
+    margin: 8px 0 8px 0;
+}
+.user-comment .header {
+    display: block;
+    font-weight: bold;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+/* TEMPLATE --------------------- */
+.user-comment-tpl p {
+    margin: 4px 0;
+}
+.user-comment-tpl input, div.user-comment-tpl textarea {
+    border: 1px solid #CCCCCC;
+    display: block;
+    padding: 3px;
+}
+.user-comment-tpl label {
+    padding: 4px;
+}
+.user-comment-tpl {
+    border: solid 1px black;
+    /*width: 400px;*/
+    margin: 5px;
+    padding: 4px;
+    display: inline-block;
+}
+/* Pager */
+.pager {
+    display: block;
+    text-align: right;
+}
+.pager ul.pages {
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0;
+}
+.pager ul.pages li {
+    list-style: none;
+    float: left;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin: 0 5px 0 0;
+    padding: 5px;
+}
+.pager ul.pages li:hover {
+    border: 1px solid #003f7e;
+}
+.pager ul.pages li.pgEmpty {
+    border: 1px solid #eee;
+    color: #eee;
+}
+.pager ul.pages li.pgCurrent {
+    border: 1px solid #003f7e;
+    color: #000;
+    font-weight: 700;
+    background-color: #eee;
+}
+/* Pages Scroller */
+/*
+ root element for the scrollable.
+ when scrolling occurs this element stays still.
+ */
+/*
+ root element for the scrollable.
+ when scrolling occurs this element stays still.
+ */
+
+.dgo-dc-pager {
+    width: 100%;
+}
+.scrollable {
+    /* required settings */
+    position: relative;
+    overflow: hidden;
+    /*width: 552px;*/
+    height: 153px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*
+ root element for scrollable items. Must be absolutely positioned
+ and it should have a extremely large width to accomodate scrollable items.
+ it's enough that you set the width and height for the root element and
+ not for this element.
+ */
+.scrollable .items {
+    /* this cannot be too large */
+    width: 20000em;
+    position: absolute;
+    clear: both;
+    height: 100%;
+}
+/* single scrollable item */
+.scrollable img {
+    float: left;
+    margin: 5px;
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    /*width: 100px;*/
+}
+/* active item */
+.scrollable .active {
+    border: 2px solid #000;
+    z-index: 9999;
+    position: relative;
+}
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+    background: url(../gfx/hori_large.png) no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+/* right */
+a.right {
+    background-position: 0 -30px;
+    clear: right;
+    margin-right: 0px;
+}
+a.right:hover {
+    background-position: -30px -30px;
+}
+a.right:active {
+    background-position: -60px -30px;
+}
+/* left */
+a.left {
+    margin-left: 0px;
+}
+a.left:hover {
+    background-position: -30px 0;
+}
+a.left:active {
+    background-position: -60px 0;
+}
+/* up and down */
+a.up, a.down {
+    background: url(../gfx/vert_large.png) no-repeat;
+    float: none;
+    margin: 10px 50px;
+}
+/* up */
+a.up:hover {
+    background-position: -30px 0;
+}
+a.up:active {
+    background-position: -60px 0;
+}
+/* down */
+a.down {
+    background-position: 0 -30px;
+}
+a.down:hover {
+    background-position: -30px -30px;
+}
+a.down:active {
+    background-position: -60px -30px;
+}
+/* disabled navigational button */
+a.disabled {
+    visibility: hidden !important;
+}
+/* ------------------------------------------ keywords */
+.keyword_link {
+    float: left;
+    display: inline;
+    padding-right: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: Blue;
+    vertical-align: bottom;
+}
+.keyword_link .value {
+    display: none;
+}
+/* ------------------------------------------ dropdown menu */
+.dropdown-menu {
+    display: inline-block;
+}
+.dropdown-menu .button span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.dropdown-menu .button {
+    padding: 4px;
+}
+/* treeview */
+.treeview .item .count {
+    padding-left: 3px;
+}
+/* ------------------------------------------
+ PROGRESSIVE ENHANCEMENT: PURE CSS SPEECH BUBBLES
+ by Nicolas Gallagher
+ - http://nicolasgallagher.com/progressive-enhancement-pure-css-speech-bubbles/
+
+ http://nicolasgallagher.com
+ http://twitter.com/necolas
+
+ Created: 02 March 2010
+ Version: 1.01
+
+ Dual licensed under MIT and GNU GPLv2 � Nicolas Gallagher
+ ------------------------------------------ */
+
+/* NOTE: Some declarations use longhand notation so that it can be clearly
+ explained what specific properties or values do and what their relationship
+ is to other properties or values in creating the effect */
+/* ------------------------------------------------------------------------------------
+ -- BASIC BUBBLES WITH TRIANGLES ON BOTTOM
+ ------------------------------------------------------------------------------------ */
+
+/* Bubble with a border rather than solid colour
+ ------------------------------------------ */
+
+.triangle-border {
+    position: relative;
+    padding: 10px;
+    margin: 1em 0 0.2em;
+    border: 1px solid #C2D1DE;
+    color: #333;
+    background: #fff;
+    width: 300px;
+    /* css3 */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+/* creates the larger triangle */
+.triangle-border:before {
+    content: "\00a0";
+    display: block;
+    /* reduce the damage in FF3.0 */
+    position: absolute;
+    bottom: -40px;
+    /* value = - border-top-width - border-bottom-width */
+    left: 40px;
+    /* controls horizontal position */
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #5a8f00;
+}
+/* creates the smaller  triangle */
+.triangle-border:after {
+    content: "\00a0";
+    display: block;
+    /* reduce the damage in FF3.0 */
+    position: absolute;
+    bottom: -26px;
+    /* value = - border-top-width - border-bottom-width */
+    left: 47px;
+    /* value = (:before left) + (:before border-left) - (:after border-left) */
+    width: 0;
+    height: 0;
+    border: 13px solid transparent;
+    border-top-color: #fff;
+}
+/* ------------------------------------------------------------------------------------
+ -- BASIC BUBBLES WITH TRIANGLES ON LEFT
+ ------------------------------------------------------------------------------------ */
+/* Bubble with a border rather than solid colour
+ ------------------------------------------ */
+
+.triangle-border.left {
+    margin-left: 25px;
+    float: left;
+}
+/* creates the larger triangle */
+.triangle-border.left:before {
+    top: 15px;
+    /* controls vertical position */
+    left: -26px;
+    /* value = - border-left-width - border-right-width */
+    bottom: auto;
+    border-width: 10px 13px;
+    border-style: solid;
+    border-color: #C2D1DE #C2D1DE transparent transparent;
+}
+/* creates the smaller  triangle */
+.triangle-border.left:after {
+    top: 16px;
+    /* value = (:before top) + (:before border-top) - (:after border-top) */
+    left: -22px;
+    /* value = - border-left-width - border-right-width */
+    bottom: auto;
+    border-width: 9px 11px;
+    border-style: solid;
+    border-color: #fff #fff transparent transparent;
+}
+/* Bubble with a border rather than solid colour
+ ------------------------------------------ */
+
+.triangle-border.right {
+    margin-right: 20px;
+}
+/* creates the larger triangle */
+.triangle-border.right:before {
+    top: 15px;
+    /* controls vertical position */
+    left: 380px;
+    /* value = div-width + border-right-width */
+    bottom: auto;
+    border-width: 10px 25px;
+    border-style: solid;
+    border-color: transparent transparent transparent #C2D1DE;
+}
+/* creates the smaller  triangle */
+.triangle-border.right:after {
+    top: 16px;
+    /* value = (:before top) + (:before border-top) - (:after border-top) */
+    left: 380px;
+    /* value = div-width + border-right-width:before */
+    bottom: auto;
+    border-width: 9px 21px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+}
