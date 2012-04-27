@@ -1,0 +1,1775 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Web 2 Print\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-25 14:45+0700\n"
+"PO-Revision-Date: 2012-04-25 14:46+0700\n"
+"Last-Translator: Peter <cuongd@normprint.com>\n"
+"Language-Team: dev@delivergo.com <dev@delivergo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: BRITISH INDIAN OCEAN TERRITORY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin_function.php:32
+#: inc/admin_function.php:224
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bạn không được phép truy cập vào trang này."
+
+#: inc/clearexcerpt.php:2
+#: inc/createcustomerwidget.inc.php:49
+msgid "AddressBook"
+msgstr "Sổ địa chỉ"
+
+#: inc/clearexcerpt.php:2
+#: inc/createcustomerwidget.inc.php:45
+#: inc/plugintranslations.php:221
+msgid "AllOrders"
+msgstr "Tất cả đơn đặt hàng"
+
+#: inc/clearexcerpt.php:2
+msgid "Activation"
+msgstr "Kích hoạt tài khoản"
+
+#: inc/clearexcerpt.php:2
+msgid "Archive"
+msgstr "Lưu trữ"
+
+#: inc/clearexcerpt.php:2
+#: inc/createcustomerwidget.inc.php:58
+msgid "EarnMoney"
+msgstr "Kiếm tiền"
+
+#: inc/clearexcerpt.php:2
+#: inc/createcustomerwidget.inc.php:50
+#: inc/plugintranslations.php:170
+msgid "AccountDetails"
+msgstr "Chi tiết tài khoản"
+
+#: inc/clearexcerpt.php:2
+#: inc/plugintranslations.php:115
+msgid "OrderConfirmation"
+msgstr "Xác nhận đặt hàng"
+
+#: inc/createcustomerwidget.inc.php:19
+#: inc/createcustomerwidget.inc.php:39
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: inc/createcustomerwidget.inc.php:19
+#: inc/createcustomerwidget.inc.php:37
+#: inc/plugintranslations.php:256
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: inc/createcustomerwidget.inc.php:40
+msgid "Hello"
+msgstr "Xin chào "
+
+#: inc/createcustomerwidget.inc.php:48
+msgid "MyMotives"
+msgstr "Hình ảnh của tôi"
+
+#: inc/createcustomerwidget.inc.php:61
+#: inc/plugintranslations.php:175
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: inc/orderproductsidebar.php:248
+#: inc/plugintranslations.php:224
+msgid "Article"
+msgstr "Sản phẩm"
+
+#: inc/orderproductsidebar.php:249
+msgid "Posters"
+msgstr "Poster"
+
+#: inc/orderproductsidebar.php:250
+msgid "Materials"
+msgstr "Nguyên liệu"
+
+#: inc/orderproductsidebar.php:251
+msgid "Styles"
+msgstr "Kiểu"
+
+#: inc/orderproductsidebar.php:252
+msgid "OilPainting"
+msgstr "Tranh sơn dầu"
+
+#: inc/orderproductsidebar.php:253
+msgid "SketchPainting"
+msgstr "Tranh phác thảo"
+
+#: inc/orderproductsidebar.php:254
+msgid "PencilPainting"
+msgstr "Tranh vẽ chì"
+
+#: inc/orderproductsidebar.php:255
+msgid "PastelPainting"
+msgstr "Tranh vẽ màu"
+
+#: inc/plugintranslations.php:7
+msgid "ShoppingCart"
+msgstr "Giỏ Hàng"
+
+#: inc/plugintranslations.php:8
+msgid "Designer"
+msgstr "Thiết Kế"
+
+#: inc/plugintranslations.php:9
+msgid "Pos"
+msgstr "Mẫu"
+
+#: inc/plugintranslations.php:10
+msgid "ArticleAndDescription"
+msgstr "Mô tả chi tiết"
+
+#: inc/plugintranslations.php:11
+msgid "MetaTagInProductDetails"
+msgstr "Thẻ meta cho trang chi tiết sản phẩm"
+
+#: inc/plugintranslations.php:12
+msgid "maxpricePer"
+msgstr "Giá cao nhất cho một sản phẩm. Giảm giá"
+
+#: inc/plugintranslations.php:13
+msgid "PricePer"
+msgstr "Giá đơn vị"
+
+#: inc/plugintranslations.php:14
+msgid "Send"
+msgstr "Gửi"
+
+#: inc/plugintranslations.php:15
+msgid "AddNewMotive"
+msgstr "Thêm mới"
+
+#: inc/plugintranslations.php:16
+msgid "Details"
+msgstr "Chi tiết"
+
+#: inc/plugintranslations.php:17
+msgid "Previous"
+msgstr "Trang trước"
+
+#: inc/plugintranslations.php:18
+msgid "Next"
+msgstr "Trang tiếp"
+
+#: inc/plugintranslations.php:19
+msgid "Keywords"
+msgstr "Từ khóa"
+
+#: inc/plugintranslations.php:20
+msgid "SalesPrices"
+msgstr "Giá bán"
+
+#: inc/plugintranslations.php:21
+msgid "Sharing"
+msgstr "Chia sẻ"
+
+#: inc/plugintranslations.php:23
+msgid "AddName"
+msgstr "Nhập tên"
+
+#: inc/plugintranslations.php:24
+msgid "AddDescription"
+msgstr "Nhập mô tả"
+
+#: inc/plugintranslations.php:25
+msgid "AddKeywords"
+msgstr "Thêm từ khóa"
+
+#: inc/plugintranslations.php:26
+msgid "AddCategories"
+msgstr "Thêm danh mục"
+
+#: inc/plugintranslations.php:27
+msgid "MotiveCanBeEditedByOtherUsers"
+msgstr "Cho phép người khác chỉnh sửa hình ảnh ?"
+
+#: inc/plugintranslations.php:28
+msgid "Creator"
+msgstr "Người tạo"
+
+#: inc/plugintranslations.php:29
+msgid "Type"
+msgstr "Kiểu"
+
+#: inc/plugintranslations.php:30
+msgid "TransparentBG"
+msgstr "Hình trong suốt"
+
+#: inc/plugintranslations.php:31
+msgid "Level"
+msgstr "Cấp bậc"
+
+#: inc/plugintranslations.php:32
+msgid "Format"
+msgstr "Định dạng"
+
+#: inc/plugintranslations.php:33
+msgid "MotivePrice"
+msgstr "Giá của hình"
+
+#: inc/plugintranslations.php:34
+msgid "YourCurrentCommissions"
+msgstr "Hoa hồng của bạn"
+
+#: inc/plugintranslations.php:35
+msgid "IUnderstandAcceptTC"
+msgstr "Tôi đã đọc và chấp nhận các điều kiện"
+
+#: inc/plugintranslations.php:36
+msgid "Add"
+msgstr "Thêm vào"
+
+#: inc/plugintranslations.php:37
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: inc/plugintranslations.php:38
+msgid "Motiv"
+msgstr "Hình ảnh"
+
+#: inc/plugintranslations.php:39
+msgid "AVS"
+msgstr "Chọn độ tuổi"
+
+#: inc/plugintranslations.php:40
+msgid "Pages"
+msgstr "Trang"
+
+#: inc/plugintranslations.php:43
+#: inc/plugintranslations.php:154
+#: inc/plugintranslations.php:233
+msgid "Amount"
+msgstr "Số lượng"
+
+#: inc/plugintranslations.php:44
+#: inc/plugintranslations.php:132
+#: inc/plugintranslations.php:235
+msgid "Action"
+msgstr "Xóa"
+
+#: inc/plugintranslations.php:45
+#: inc/plugintranslations.php:234
+msgid "Price"
+msgstr "Giá"
+
+#: inc/plugintranslations.php:46
+msgid "Keyword_products"
+msgstr "anh"
+
+#: inc/plugintranslations.php:47
+msgid "Keyword_breadcrumb"
+msgstr "Ảnh các sản phẩm"
+
+#: inc/plugintranslations.php:48
+msgid "Pleasetransferthepayment"
+msgstr "Quý khách vui lòng thanh toán vào tài khoản sau"
+
+#: inc/plugintranslations.php:49
+msgid "EndUserPriceFormat"
+msgstr "Giá không bao gồm VAT và phí vận chuyển."
+
+#: inc/plugintranslations.php:50
+msgid "EndUserPriceFormatGross"
+msgstr "Giá đã bao gồm VAT và phí vận chuyển."
+
+#: inc/plugintranslations.php:51
+msgid "NoticePayment"
+msgstr "Tiền tệ đang dùng sẽ tự động được chuyển sang"
+
+#: inc/plugintranslations.php:52
+msgid "LoginReturningCus"
+msgstr "Đăng nhập tài khoản"
+
+#: inc/plugintranslations.php:53
+#: inc/plugintranslations.php:246
+msgid "All"
+msgstr "Tất cả sản phẩm"
+
+#: inc/plugintranslations.php:54
+msgid "OrderDate"
+msgstr "Ngày đặt"
+
+#: inc/plugintranslations.php:55
+msgid "VAT"
+msgstr "Thuế VAT"
+
+#: inc/plugintranslations.php:56
+msgid "Crystal"
+msgstr "Pha lê"
+
+#: inc/plugintranslations.php:57
+msgid "Free"
+msgstr "MIỄN PHÍ"
+
+#: inc/plugintranslations.php:58
+msgid "CropMessage"
+msgstr "Bạn chưa cắt hình vừa tải lên, bạn có muốn hình được cắt tự động không ?"
+
+#: inc/plugintranslations.php:59
+msgid "StopAll"
+msgstr "Dừng lại"
+
+#: inc/plugintranslations.php:60
+msgid "Yourfileswillbetransfered"
+msgstr "Các tập tin của bạn sẽ được truyền đi"
+
+#: inc/plugintranslations.php:61
+msgid "includedPrices"
+msgstr "Giá đã bao gồm VAT và phí vận chuyển."
+
+#: inc/plugintranslations.php:63
+msgid "Link"
+msgstr "Liên kết"
+
+#: inc/plugintranslations.php:64
+msgid "Tellafriends"
+msgstr "Giới thiệu bạn bè"
+
+#: inc/plugintranslations.php:65
+msgid "YourAdvantages"
+msgstr "Thuận lợi của bạn"
+
+#: inc/plugintranslations.php:66
+msgid "TageRueckgaberecht"
+msgstr "Sản phẩm chất lượng cao"
+
+#: inc/plugintranslations.php:67
+msgid "Expressversandmgl"
+msgstr "Giao hàng nhanh chóng"
+
+#: inc/plugintranslations.php:68
+msgid "KeineMindestabnahme"
+msgstr "Thanh toán an toàn"
+
+#: inc/plugintranslations.php:70
+msgid "ArticleGroups"
+msgstr "Nhóm sản phẩm"
+
+#: inc/plugintranslations.php:71
+msgid "Subtypes"
+msgstr "Kiểu"
+
+#: inc/plugintranslations.php:72
+msgid "AvailableColors"
+msgstr "Màu sắc hiện có"
+
+#: inc/plugintranslations.php:73
+msgid "AvailableSizes"
+msgstr "Kích thước hiện có"
+
+#: inc/plugintranslations.php:75
+msgid "PicHasLowResolution"
+msgstr "Hình ảnh không đạt chất lượng."
+
+#: inc/plugintranslations.php:76
+msgid "ResetCache"
+msgstr "Xóa Cache"
+
+#: inc/plugintranslations.php:77
+msgid "BanknameBankforForeignTradeofVietnam"
+msgstr "Tên ngân hàng: Ngân hàng ngoại thương - Vietcombank"
+
+#: inc/plugintranslations.php:78
+msgid "BanknameBankforACB"
+msgstr "Tên ngân hàng: Ngân hàng Á Châu - ACB"
+
+#: inc/plugintranslations.php:79
+msgid "CompanynameHoangProductCompanyLimited"
+msgstr "Chủ tài khoản: Cty TNHH MTV Hoàng Production"
+
+#: inc/plugintranslations.php:80
+msgid "PaymentMethodInstructionViaBaoKim"
+msgstr "Hướng dẫn thanh toán qua Bảo Kim"
+
+#: inc/plugintranslations.php:81
+msgid "PaymentMethodInstructionViaNganLuong"
+msgstr "Hướng dẫn thanh toán qua Ngân Lượng"
+
+#: inc/plugintranslations.php:82
+msgid "Thisemailaddressnotexist"
+msgstr "Địa chỉ email này không tồn tại"
+
+#: inc/plugintranslations.php:83
+msgid "ConfirmShouldBeSameAsPass"
+msgstr "Mật khẩu xác nhận phải bằng với mật khẩu"
+
+#: inc/plugintranslations.php:84
+msgid "AffiliatePayment"
+msgstr "Thanh toán cho đại lý"
+
+#: inc/plugintranslations.php:85
+msgid "wrongpassword"
+msgstr "Mật khẩu không chính xác"
+
+#: inc/plugintranslations.php:86
+msgid "CreateNewShop"
+msgstr "Tạo cửa hàng mới"
+
+#: inc/plugintranslations.php:87
+msgid "Accountnumber"
+msgstr "Số tài khoản"
+
+#: inc/plugintranslations.php:88
+msgid "NoSalesYet"
+msgstr "Chưa có doanh số bán hàng"
+
+#: inc/plugintranslations.php:89
+msgid "RegisterSuccessful"
+msgstr "Đăng ký thành công! Vui lòng kiểm tra email của bạn."
+
+#: inc/plugintranslations.php:90
+msgid "ForEveryone"
+msgstr "cho tất cả mọi người"
+
+#: inc/plugintranslations.php:91
+msgid "OnlyForLoggedInUsers"
+msgstr "chỉ với những người dùng đã đăng nhập"
+
+#: inc/plugintranslations.php:92
+msgid "ActiveSuccessful"
+msgstr "Kích hoạt thành công! Bạn có thể đăng nhập ngay."
+
+#: inc/plugintranslations.php:93
+msgid "ArticlePrices"
+msgstr "Sản phẩm & Giá"
+
+#: inc/plugintranslations.php:94
+msgid "ProductDetails"
+msgstr "Chi tiết sản phẩm"
+
+#: inc/plugintranslations.php:95
+msgid "Loading"
+msgstr "Đang tải"
+
+#: inc/plugintranslations.php:96
+msgid "Active"
+msgstr "Kích hoạt"
+
+#: inc/plugintranslations.php:97
+msgid "ClickHereToAddText"
+msgstr "Bấm vào để thay đổi nội dung"
+
+#: inc/plugintranslations.php:98
+msgid "Via"
+msgstr "thông qua"
+
+#: inc/plugintranslations.php:99
+msgid "SelectShippingAddress"
+msgstr "Chọn địa chỉ vận chuyển"
+
+#: inc/plugintranslations.php:100
+msgid "YourAddress"
+msgstr "Tên, Địa chỉ..."
+
+#: inc/plugintranslations.php:101
+msgid "SelectShippingMethod"
+msgstr "Chọn phương thức vận chuyển"
+
+#: inc/plugintranslations.php:102
+msgid "StandardShipping"
+msgstr "Vận chuyển bình thường"
+
+#: inc/plugintranslations.php:103
+msgid "SelectPaymentMethod"
+msgstr "Chọn cách thức thanh toán"
+
+#: inc/plugintranslations.php:104
+msgid "PaymentMethod"
+msgstr "Cách thức thanh toán"
+
+#: inc/plugintranslations.php:105
+msgid "TermsAndConditionCaption"
+msgstr "Điều khoản và điều kiện"
+
+#: inc/plugintranslations.php:106
+msgid "Include"
+msgstr "Giá đã bao gồm VAT và phí vận chuyển."
+
+#: inc/plugintranslations.php:107
+msgid "UploadPictures"
+msgstr "Tải hình"
+
+#: inc/plugintranslations.php:108
+msgid "OnlineDesigner"
+msgstr "Thiết kế trực tuyến"
+
+#: inc/plugintranslations.php:109
+msgid "CartEmptyText"
+msgstr "Giỏ hàng của bạn còn trống, hãy mua vài thứ nào!"
+
+#: inc/plugintranslations.php:111
+msgid "ProductFinishedCaption"
+msgstr "Sẵn sàng vận chuyển "
+
+#: inc/plugintranslations.php:112
+msgid "CropFitpictures"
+msgstr "Cắt hình ảnh"
+
+#: inc/plugintranslations.php:116
+msgid "ThanksForYourOrder"
+msgstr "Cám ơn đơn đặt hàng của quý khách"
+
+#: inc/plugintranslations.php:121
+#: inc/plugintranslations.php:157
+#: inc/plugintranslations.php:180
+#: inc/plugintranslations.php:236
+msgid "Status"
+msgstr "Tình trạng"
+
+#: inc/plugintranslations.php:122
+#: inc/plugintranslations.php:181
+msgid "MainAddress"
+msgstr "Địa chỉ chính"
+
+#: inc/plugintranslations.php:123
+#: inc/plugintranslations.php:182
+#: inc/plugintranslations.php:217
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: inc/plugintranslations.php:124
+msgid "AffiliateID"
+msgstr "Mã liên kết"
+
+#: inc/plugintranslations.php:125
+msgid "ReferralLink"
+msgstr "Link đại diện"
+
+#: inc/plugintranslations.php:126
+msgid "Statistic"
+msgstr "Thống kê"
+
+#: inc/plugintranslations.php:127
+#: inc/plugintranslations.php:163
+msgid "Withdraw"
+msgstr "Rút tiền"
+
+#: inc/plugintranslations.php:128
+msgid "YourAffiliateID"
+msgstr "Mã liên kết của  bạn"
+
+#: inc/plugintranslations.php:129
+msgid "Copy"
+msgstr "Sao chép"
+
+#: inc/plugintranslations.php:130
+msgid "ShopName"
+msgstr "Tên cửa hàng"
+
+#: inc/plugintranslations.php:131
+#: inc/plugintranslations.php:190
+msgid "Description"
+msgstr "Mô tả"
+
+#: inc/plugintranslations.php:133
+msgid "NewShop"
+msgstr "Tạo cửa hàng mới"
+
+#: inc/plugintranslations.php:134
+msgid "NewCustomerAffiliateID"
+msgstr "Tạo khách hàng / mã liên kết mới"
+
+#: inc/plugintranslations.php:135
+#: inc/plugintranslations.php:183
+msgid "WeLoveFeedback"
+msgstr "Chúng tôi mong chờ các thông tin phản hồi bởi vì chúng tôi luôn tìm cách để cải thiện kinh nghiệm của mình nhằm làm hài lòng các bạn nên xin vui lòng cho chúng tôi biết những gì bạn nghĩ về chúng tôi."
+
+#: inc/plugintranslations.php:136
+msgid "TellYourFriends"
+msgstr "Giới thiệu bạn bè của bạn và nhận tới 10% hoa hồng!"
+
+#: inc/plugintranslations.php:137
+msgid "YourUniqueReferralLink"
+msgstr "Link đại diện của bạn"
+
+#: inc/plugintranslations.php:138
+msgid "UseTheLinkBelow"
+msgstr "Sử dụng liên kết bên dưới để đưa người dùng đến website của chúng tôi. liên kết này sẽ theo dõi số lượng người dùng bạn giới thiệu cho chúng tôi."
+
+#: inc/plugintranslations.php:139
+msgid "YourLastReferral"
+msgstr "Lần giới thiệu gần nhất của bạn"
+
+#: inc/plugintranslations.php:140
+msgid "MoreInfo"
+msgstr "Thêm thông tin"
+
+#: inc/plugintranslations.php:141
+msgid "BannersForYourWebsite"
+msgstr "Banners quảng cáo cho website của bạn"
+
+#: inc/plugintranslations.php:142
+msgid "ByHostingOne"
+msgstr "Bằng cách sỡ hữu một trong nhiều banner của chúng tôi trên website, blog hay portfolio của bạn, bạn sẽ gia nhập vào đội ngũ nhân viên tự do của chúng tôi, những người kiếm được lượng người dùng ngay cả khi họ đang ngủ. Mã số bên dưới của banner đã bao gồm ID giới thiệu độc đáo nhất của bạn, chỉ cần nhấp “Copy” và dán nó vào trang web của bạn."
+
+#: inc/plugintranslations.php:143
+msgid "SalesReferrals"
+msgstr "Bán hàng/ Giới thiệu"
+
+#: inc/plugintranslations.php:144
+msgid "Turnover"
+msgstr "Doanh thu"
+
+#: inc/plugintranslations.php:145
+msgid "YourProfit"
+msgstr "Lợi nhuận của bạn"
+
+#: inc/plugintranslations.php:146
+msgid "to"
+msgstr "đến"
+
+#: inc/plugintranslations.php:147
+msgid "OrChoose"
+msgstr "hoặc chọn"
+
+#: inc/plugintranslations.php:148
+msgid "Refresh"
+msgstr "Làm mới"
+
+#: inc/plugintranslations.php:149
+msgid "Date"
+msgstr "Ngày"
+
+#: inc/plugintranslations.php:150
+msgid "Shop"
+msgstr "Cửa hàng"
+
+#: inc/plugintranslations.php:151
+msgid "Order"
+msgstr "Đặt mua"
+
+#: inc/plugintranslations.php:152
+msgid "Country"
+msgstr "Quốc gia"
+
+#: inc/plugintranslations.php:153
+msgid "Item"
+msgstr "Mục"
+
+#: inc/plugintranslations.php:155
+msgid "ProductPrice"
+msgstr "Giá sản phẩm"
+
+#: inc/plugintranslations.php:156
+msgid "Provision"
+msgstr "Thiết lập"
+
+#: inc/plugintranslations.php:158
+msgid "LastWeek"
+msgstr "Tuần trước"
+
+#: inc/plugintranslations.php:159
+msgid "LastMonth"
+msgstr "Tháng trước"
+
+#: inc/plugintranslations.php:160
+msgid "LastYear"
+msgstr "Năm trước"
+
+#: inc/plugintranslations.php:161
+msgid "AvailableBalance"
+msgstr "Số dư hiện có"
+
+#: inc/plugintranslations.php:162
+msgid "WithdrawAmount"
+msgstr "Rút tiền"
+
+#: inc/plugintranslations.php:164
+msgid "WireTransfer"
+msgstr "Chuyển khoản"
+
+#: inc/plugintranslations.php:165
+msgid "PaymentHistory"
+msgstr "Lịch sử thanh toán"
+
+#: inc/plugintranslations.php:166
+#: inc/plugintranslations.php:186
+msgid "Currency"
+msgstr "Tiền tệ"
+
+#: inc/plugintranslations.php:169
+msgid "Accounts"
+msgstr "Tài khoản"
+
+#: inc/plugintranslations.php:171
+msgid "AccountConnection"
+msgstr "Tài khoản kết nối"
+
+#: inc/plugintranslations.php:172
+msgid "ChangePassword"
+msgstr "Thay đổi mật khẩu"
+
+#: inc/plugintranslations.php:173
+msgid "AddAConnection"
+msgstr "Thêm kết nối"
+
+#: inc/plugintranslations.php:174
+msgid "PaymentDetails"
+msgstr "Chi tiết thanh toán"
+
+#: inc/plugintranslations.php:176
+#: inc/plugintranslations.php:215
+msgid "Name"
+msgstr "Tên"
+
+#: inc/plugintranslations.php:177
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: inc/plugintranslations.php:178
+msgid "Delete"
+msgstr "Xóa"
+
+#: inc/plugintranslations.php:179
+msgid "ValidTo"
+msgstr "Có hiệu lực đến"
+
+#: inc/plugintranslations.php:184
+msgid "NewPaymentMethod"
+msgstr "Thêm phương thức thanh toán"
+
+#: inc/plugintranslations.php:185
+msgid "NewsLetter"
+msgstr "Thư thông báo"
+
+#: inc/plugintranslations.php:187
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: inc/plugintranslations.php:188
+msgid "JobsPerPage"
+msgstr "Số lượng công việc cho mỗi trang"
+
+#: inc/plugintranslations.php:189
+#: inc/plugintranslations.php:216
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: inc/plugintranslations.php:191
+msgid "GetTheNewestInfomation"
+msgstr "Nhận thông tin mới nhất"
+
+#: inc/plugintranslations.php:192
+msgid "ChooseYourPreferedLanguage"
+msgstr "Chọn ngôn ngữ của bạn"
+
+#: inc/plugintranslations.php:193
+msgid "ChooseYourPreferedCurrency"
+msgstr "Chọn loại tiền tệ của bạn"
+
+#: inc/plugintranslations.php:194
+msgid "ChooseYourPreferedAddress"
+msgstr "Chọn địa chỉ của bạn"
+
+#: inc/plugintranslations.php:195
+msgid "HowManyJobs"
+msgstr "Hiển thị số lượng công việc trong mỗi trang"
+
+#: inc/plugintranslations.php:196
+msgid "SomethingIsMissing"
+msgstr "Nếu có gì thiếu sót"
+
+#: inc/plugintranslations.php:197
+msgid "DontHaveConnection"
+msgstr "Bạn không có tài khoản kết nối nào"
+
+#: inc/plugintranslations.php:198
+msgid "YouDontHaveAddress"
+msgstr "Bạn không có địa chỉ nào"
+
+#: inc/plugintranslations.php:199
+msgid "Done"
+msgstr "Xong"
+
+#: inc/plugintranslations.php:200
+msgid "Quality"
+msgstr "Chất lượng"
+
+#: inc/plugintranslations.php:201
+msgid "Zoom"
+msgstr "Zoom"
+
+#: inc/plugintranslations.php:202
+msgid "Orientation"
+msgstr "Định hướng"
+
+#: inc/plugintranslations.php:203
+msgid "Uploadingfile"
+msgstr "Tập tin đang tải"
+
+#: inc/plugintranslations.php:204
+msgid "Remaining"
+msgstr "Thời gian còn lại"
+
+#: inc/plugintranslations.php:205
+msgid "Speed"
+msgstr "Tốc độ"
+
+#: inc/plugintranslations.php:208
+msgid "ImportFromGoogle"
+msgstr "Thêm địa chỉ từ google"
+
+#: inc/plugintranslations.php:209
+msgid "ImportFromLinkedin"
+msgstr "Thêm địa chỉ từ Linkedin"
+
+#: inc/plugintranslations.php:210
+msgid "AddNewAddress"
+msgstr "Thêm địa chỉ mới"
+
+#: inc/plugintranslations.php:211
+msgid "FirstName"
+msgstr "Tên"
+
+#: inc/plugintranslations.php:212
+msgid "LastName"
+msgstr "Họ"
+
+#: inc/plugintranslations.php:213
+msgid "Company"
+msgstr "Công ty"
+
+#: inc/plugintranslations.php:214
+msgid "City"
+msgstr "Thành phố"
+
+#: inc/plugintranslations.php:218
+msgid "UploadAvatar"
+msgstr "Tải avartar của  bạn"
+
+#: inc/plugintranslations.php:222
+msgid "ShowAllDetails"
+msgstr "Hiển thị chi tiết"
+
+#: inc/plugintranslations.php:223
+msgid "EntriesPerPage"
+msgstr "Số lượng mục trên trang"
+
+#: inc/plugintranslations.php:225
+msgid "Sum"
+msgstr "Tổng cộng"
+
+#: inc/plugintranslations.php:226
+msgid "ShippingAddress"
+msgstr "Địa chỉ vận chuyển"
+
+#: inc/plugintranslations.php:227
+msgid "Payment"
+msgstr "Thanh toán"
+
+#: inc/plugintranslations.php:228
+msgid "Shipment"
+msgstr "Vận chuyển"
+
+#: inc/plugintranslations.php:229
+msgid "Production"
+msgstr "Sản xuất"
+
+#: inc/plugintranslations.php:230
+msgid "Show"
+msgstr "Hiển thị"
+
+#: inc/plugintranslations.php:231
+msgid "Position"
+msgstr "Địa điểm"
+
+#: inc/plugintranslations.php:232
+msgid "DetailsandDescription"
+msgstr "Mô tả chi tiết"
+
+#: inc/plugintranslations.php:237
+msgid "PlsClickButtonBelowToCompleteYourOrder"
+msgstr "Vui lòng nhấn nút thanh toán bên dưới để hoàn tất việc đặt hàng"
+
+#: inc/plugintranslations.php:240
+msgid "PlsTypeYour"
+msgstr "Vui lòng nhập địa chỉ Email và Mã kích hoạt"
+
+#: inc/plugintranslations.php:241
+msgid "ActivationCode"
+msgstr "Mã kích hoạt"
+
+#: inc/plugintranslations.php:242
+msgid "ActiveNow"
+msgstr "Kích hoạt"
+
+#: inc/plugintranslations.php:243
+msgid "ActivationTitle"
+msgstr "Kích hoạt tài khoản"
+
+#: inc/plugintranslations.php:249
+msgid "Text404"
+msgstr "Trang web bạn đang tìm kiếm không tồn tại. Nào,"
+
+#: inc/plugintranslations.php:250
+msgid "LinksToHompage"
+msgstr "quay trở lại trang chủ!"
+
+#: inc/plugintranslations.php:253
+msgid "NoCommentTranslation"
+msgstr "Chưa có ý kiến nào!"
+
+#: inc/plugintranslations.php:254
+msgid "LookForwardIdea"
+msgstr "Chúng tôi mong đợi ý kiến và góp ý của bạn."
+
+#: inc/plugintranslations.php:255
+msgid "LeaveAComment"
+msgstr "Viết ý kiến của bạn"
+
+#: inc/plugintranslations.php:257
+msgid "SignUp"
+msgstr "Đăng ký"
+
+#: inc/plugintranslations.php:258
+msgid "Or"
+msgstr "hoặc"
+
+#: inc/plugintranslations.php:259
+msgid "SomePictures"
+msgstr "vài hình ảnh"
+
+#: inc/plugintranslations.php:260
+msgid "1Picture"
+msgstr "1 hình ảnh"
+
+#: inc/plugintranslations.php:261
+msgid "YouHaveAlso"
+msgstr "Bạn còn"
+
+#: inc/plugintranslations.php:262
+msgid "WhichNotTouchedYet"
+msgstr "chưa tùy chỉnh."
+
+#: inc/plugintranslations.php:265
+msgid "PasswordSettings"
+msgstr "Cài đặt mật khẩu"
+
+#: inc/plugintranslations.php:266
+msgid "LoginHere"
+msgstr "Đăng nhập ở đây..."
+
+#: inc/plugintranslations.php:267
+msgid "ShippingType"
+msgstr "Các dạng vận chuyển"
+
+#: inc/plugintranslations.php:268
+msgid "ShowMePriceFor"
+msgstr "Vận chuyển đến"
+
+#: inc/plugintranslations.php:269
+msgid "State"
+msgstr "Tỉnh"
+
+#: inc/plugintranslations.php:270
+msgid "NewAddressCaption"
+msgstr "Địa chỉ mới"
+
+#: inc/plugintranslations.php:271
+msgid "SelectThisAddress"
+msgstr "Chọn địa chỉ"
+
+#: inc/pluginComponents/accountDetails.php:25
+#: inc/pluginComponents/addressBook.php:25
+#: inc/pluginComponents/earnMoney.php:25
+msgid "Mr"
+msgstr "Ông"
+
+#: inc/pluginComponents/accountDetails.php:26
+#: inc/pluginComponents/addressBook.php:26
+#: inc/pluginComponents/earnMoney.php:26
+msgid "Mrs"
+msgstr "Bà"
+
+#: inc/pluginComponents/accountDetails.php:27
+#: inc/pluginComponents/addressBook.php:27
+#: inc/pluginComponents/earnMoney.php:27
+msgid "Neutral"
+msgstr "Tổ chức"
+
+#: inc/pluginComponents/accountDetails.php:33
+#: inc/pluginComponents/addressBook.php:33
+#: inc/pluginComponents/addressBook.php:125
+#: inc/pluginComponents/earnMoney.php:33
+msgid "Street"
+msgstr "Địa chỉ"
+
+#: inc/pluginComponents/accountDetails.php:35
+#: inc/pluginComponents/addressBook.php:35
+#: inc/pluginComponents/earnMoney.php:35
+msgid "Zip"
+msgstr "Mã ZIP"
+
+#: inc/pluginComponents/accountDetails.php:37
+#: inc/pluginComponents/addressBook.php:37
+#: inc/pluginComponents/addressBook.php:74
+#: inc/pluginComponents/addressBook.php:129
+#: inc/pluginComponents/earnMoney.php:37
+msgid "Phone"
+msgstr "Điện thoại"
+
+#: inc/pluginComponents/accountDetails.php:38
+#: inc/pluginComponents/addressBook.php:38
+#: inc/pluginComponents/addressBook.php:73
+#: inc/pluginComponents/addressBook.php:128
+#: inc/pluginComponents/earnMoney.php:38
+msgid "Email"
+msgstr "Email"
+
+#: inc/pluginComponents/accountDetails.php:39
+#: inc/pluginComponents/addressBook.php:39
+#: inc/pluginComponents/earnMoney.php:39
+msgid "SendMeOffer"
+msgstr "Gửi cho tôi chương trình khuyến mãi đặc biệt của bạn"
+
+#: inc/pluginComponents/accountDetails.php:40
+#: inc/pluginComponents/addressBook.php:40
+#: inc/pluginComponents/earnMoney.php:40
+msgid "Note"
+msgstr "Ghi chú"
+
+#: inc/pluginComponents/accountDetails.php:42
+#: inc/pluginComponents/addressBook.php:42
+#: inc/pluginComponents/earnMoney.php:42
+#: inc/pluginComponents/earnMoney.php:92
+msgid "Save"
+msgstr "Lưu lại"
+
+#: inc/pluginComponents/accountDetails.php:52
+msgid "PlsTypeAllofFieldsBelowToChangeYourPass"
+msgstr "Vui lòng nhập các thông tin dưới đây để thay đổi mật khẩu của bạn"
+
+#: inc/pluginComponents/accountDetails.php:53
+msgid "OldPass"
+msgstr "Mật khẩu cũ"
+
+#: inc/pluginComponents/accountDetails.php:54
+msgid "NewPass"
+msgstr "Mật khẩu mới"
+
+#: inc/pluginComponents/accountDetails.php:55
+msgid "PassConfirm"
+msgstr "Xác nhận mật khẩu"
+
+#: inc/pluginComponents/accountDetails.php:56
+msgid "Change"
+msgstr "Thay đổi"
+
+#: inc/pluginComponents/accountDetails.php:65
+msgid "LoginProvider"
+msgstr "Tài khoản kết nối"
+
+#: inc/pluginComponents/accountDetails.php:72
+msgid "YourLoginName"
+msgstr "Tên đăng nhập"
+
+#: inc/pluginComponents/accountDetails.php:77
+msgid "DeleteConnection"
+msgstr "Hủy kết nối"
+
+#: inc/pluginComponents/accountDetails.php:85
+msgid "DoYouHaveAnAccountHereAlready"
+msgstr "Bạn đã có tài khoản?"
+
+#: inc/pluginComponents/addressBook.php:49
+#: inc/pluginComponents/addressBook.php:102
+msgid "PlsSelectYourShippingAdd"
+msgstr "Vui lòng chọn địa chỉ giao hàng "
+
+#: inc/pluginComponents/addressBook.php:52
+#: inc/pluginComponents/addressBook.php:105
+msgid "ShowAll"
+msgstr "Hiển thị tất cả"
+
+#: inc/pluginComponents/addressBook.php:56
+#: inc/pluginComponents/addressBook.php:109
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: inc/pluginComponents/addressBook.php:69
+#: inc/pluginComponents/addressBook.php:121
+msgid "SelectThisAdd"
+msgstr "Chọn địa chỉ này"
+
+#: inc/pluginComponents/addressBook.php:86
+#: inc/pluginComponents/addressBook.php:140
+msgid "LoginFirst"
+msgstr "Đăng nhập trước"
+
+#: inc/pluginComponents/addressBook.php:93
+#: inc/pluginComponents/addressBook.php:147
+msgid "SelectAll"
+msgstr "Chọn tất cả"
+
+#: inc/pluginComponents/addressBook.php:93
+#: inc/pluginComponents/addressBook.php:147
+msgid "None"
+msgstr "Không chọn"
+
+#: inc/pluginComponents/addressBook.php:94
+#: inc/pluginComponents/addressBook.php:148
+msgid "ImportNow"
+msgstr "Tải về "
+
+#: inc/pluginComponents/earnMoney.php:49
+msgid "PlsFillTheForm"
+msgstr "Vui lòng nhập vào biểu mẫu"
+
+#: inc/pluginComponents/earnMoney.php:59
+msgid "Create"
+msgstr "Tạo"
+
+#: inc/pluginComponents/earnMoney.php:85
+msgid "Close"
+msgstr "Đóng"
+
+#: inc/pluginComponents/earnMoney.php:91
+msgid "AddNow"
+msgstr "Thêm vào"
+
+#: inc/pluginComponents/hiddenForm.php:19
+msgid "AddressMissingInform"
+msgstr "Vui lòng chọn địa chỉ của bạn để thực hiện đặt hàng."
+
+#: inc/pluginComponents/hiddenForm.php:20
+msgid "ShippingMissingInform"
+msgstr "Vui lòng chọn phương thức vận chuyển"
+
+#: inc/pluginComponents/hiddenForm.php:21
+msgid "PaymentMissingInform"
+msgstr "Vui lòng chọn phương thức thanh toán"
+
+#: inc/pluginComponents/hiddenForm.php:22
+msgid "RightMissingInform"
+msgstr "Vui lòng đồng ý Điều khoản & điều kiện"
+
+#: inc/pluginComponents/hiddenForm.php:23
+msgid "Youwillberedirectedtotheshoppingcartnow"
+msgstr "Bạn sẽ được chuyển đến trang giỏ hàng"
+
+#: inc/pluginComponents/hiddenForm.php:24
+msgid "Youwillberedirectedtotheorderconfirmationnow"
+msgstr "Bạn sẽ được chuyển đến trang xác nhận đặt hàng"
+
+#: inc/pluginComponents/loginForm.php:9
+msgid "ForgotYourPassword?"
+msgstr "Quên mật khẩu ?"
+
+#: inc/pluginComponents/loginForm.php:10
+msgid "ActiveAccount?"
+msgstr "Kích hoạt tài khoản?"
+
+#: inc/pluginComponents/loginForm.php:11
+#: inc/pluginComponents/loginForm.php:117
+msgid "OpenNewAccount"
+msgstr "Tạo tài khoản mới"
+
+#: inc/pluginComponents/loginForm.php:12
+#: inc/pluginComponents/loginForm.php:87
+msgid "InvalidEmailAddress"
+msgstr "Địa chỉ email này không hợp lệ"
+
+#: inc/pluginComponents/loginForm.php:13
+#: inc/pluginComponents/loginForm.php:78
+msgid "MustBeMore6Char"
+msgstr "Phải hơn 6 ký tự (tối thiểu 7 ký tự)"
+
+#: inc/pluginComponents/loginForm.php:16
+#: inc/pluginComponents/loginForm.php:54
+msgid "PasswordConfirm"
+msgstr "Xác nhận"
+
+#: inc/pluginComponents/loginForm.php:17
+#: inc/pluginComponents/loginForm.php:35
+#: inc/pluginComponents/loginForm.php:50
+#: inc/pluginComponents/loginForm.php:79
+#: inc/pluginComponents/provisionsForm.php:92
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: inc/pluginComponents/loginForm.php:32
+msgid "PlsInputYourLoginDetailsBelow"
+msgstr "Xin vui lòng điền chi tiết đăng nhập dưới đây"
+
+#: inc/pluginComponents/loginForm.php:33
+#: inc/pluginComponents/loginForm.php:46
+msgid "YourEmailAddress"
+msgstr "Địa chỉ email của bạn"
+
+#: inc/pluginComponents/loginForm.php:41
+msgid "ForgotPassword"
+msgstr "Quên mật khẩu"
+
+#: inc/pluginComponents/loginForm.php:45
+msgid "CreateYourFreeAccountNow"
+msgstr "Tạo tài khoản miễn phí ngay bây giờ"
+
+#: inc/pluginComponents/loginForm.php:57
+#: inc/pluginComponents/loginForm.php:68
+msgid "Register"
+msgstr "Đăng ký"
+
+#: inc/pluginComponents/loginForm.php:62
+msgid "AlreadyAnAccountCaption"
+msgstr "Bạn đã có tài khoản? "
+
+#: inc/pluginComponents/loginForm.php:75
+msgid "AccountExistButEnable"
+msgstr "Tài khoản này tồn tại nhưng chưa được phép sử dụng. Vui lòng nhập tên đăng nhập của bạn và chúng tôi sẽ gửi email kích hoạt tới bạn"
+
+#: inc/pluginComponents/loginForm.php:81
+msgid "MaxlengthIs30Char"
+msgstr "Tối đa là 30 ký tự"
+
+#: inc/pluginComponents/loginForm.php:88
+msgid "Thisemailaddressalreadyexists"
+msgstr "Địa chỉ email này đã tồn tại"
+
+#: inc/pluginComponents/loginForm.php:90
+msgid "InvalidPhoneNumber"
+msgstr "Số điện thoại không hợp lệ"
+
+#: inc/pluginComponents/loginForm.php:92
+msgid "ThisFieldIsRequired"
+msgstr "Thông tin này là bắt buộc"
+
+#: inc/pluginComponents/loginForm.php:93
+msgid "ErrorMessage"
+msgstr "Tin nhắn báo lỗi"
+
+#: inc/pluginComponents/loginForm.php:117
+msgid "OpenNewAccountOrAssign"
+msgstr "Mở tài khoản mới hoặc đăng nhập vào tài khoản đã có"
+
+#: inc/pluginComponents/loginForm.php:117
+msgid "AssginToExistAccount"
+msgstr "Đăng nhập vào tài khoản đã có"
+
+#: inc/pluginComponents/loginForm.php:117
+msgid "WeWillSendReSet"
+msgstr "Chúng tôi sẽ gửi hướng dẫn đặt lại mật khẩu đến địa chỉ email liên kết với tài khoản của bạn. Vui lòng đăng nhập dưới đây"
+
+#: inc/pluginComponents/loginForm.php:117
+msgid "RecoverPassword"
+msgstr "Khôi phục mật khẩu"
+
+#: inc/pluginComponents/optionsForm.php:80
+msgid "PageSettings"
+msgstr "Thiết lập trang"
+
+#: inc/pluginComponents/optionsForm.php:83
+msgid "Options"
+msgstr "Các lựa chọn"
+
+#: inc/pluginComponents/optionsForm.php:87
+msgid "Widgetonly"
+msgstr "Bảng tính giá"
+
+#: inc/pluginComponents/optionsForm.php:91
+msgid "WidgetSubpages"
+msgstr "Bảng tính giá và các trang con"
+
+#: inc/pluginComponents/optionsForm.php:104
+msgid "DropdownSwitch"
+msgstr "Thiết lập kiểu hiện thị sản phẩm, kích thước, màu sắc"
+
+#: inc/pluginComponents/optionsForm.php:107
+msgid "Howmanyentriesdoyouwanttochoose"
+msgstr "Số lượng mẩu tin mà bạn muốn ?"
+
+#: inc/pluginComponents/optionsForm.php:109
+msgid "Entries"
+msgstr "Mẩu tin"
+
+#: inc/pluginComponents/optionsForm.php:120
+msgid "Changearticlegroupsubtypesview"
+msgstr "Thay đổi kiểu hiện thị cho nhóm sản phẩm và sản phẩm phụ"
+
+#: inc/pluginComponents/optionsForm.php:124
+msgid "Thumbnail"
+msgstr "Hình ảnh"
+
+#: inc/pluginComponents/optionsForm.php:128
+msgid "Dropdown"
+msgstr "Danh sách"
+
+#: inc/pluginComponents/optionsForm.php:145
+msgid "Availablevariables"
+msgstr "Các từ khóa"
+
+#: inc/pluginComponents/optionsForm.php:155
+msgid "Metatagfortitle"
+msgstr "Nội dung cho thẻ meta kiểu tiêu đề"
+
+#: inc/pluginComponents/optionsForm.php:158
+msgid "Metatagfordescription"
+msgstr "Nội dung cho thẻ meta kiểu mô tả"
+
+#: inc/pluginComponents/provisionsForm.php:33
+#: inc/pluginComponents/provisionsForm.php:129
+msgid "User"
+msgstr "Người dùng"
+
+#: inc/pluginComponents/provisionsForm.php:33
+msgid "ShopID"
+msgstr "Mã cửa hàng"
+
+#: inc/pluginComponents/provisionsForm.php:34
+msgid "SelectProducts"
+msgstr "Sản phẩm đã chọn"
+
+#: inc/pluginComponents/provisionsForm.php:35
+msgid "Visibility"
+msgstr "Hiển thị"
+
+#: inc/pluginComponents/provisionsForm.php:36
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: inc/pluginComponents/provisionsForm.php:44
+msgid "Ooopsyoudonthaveanaccountconfiguredtillnow"
+msgstr "Bạn chưa có tài khoản nào được cấu hình."
+
+#: inc/pluginComponents/provisionsForm.php:48
+msgid "Ifyouwanttogiveussomefeedbackfeelfreeto"
+msgstr "Nếu có thắc mắc xin vui lòng"
+
+#: inc/pluginComponents/provisionsForm.php:48
+msgid "ContactUs"
+msgstr "Liên hệ"
+
+#: inc/pluginComponents/provisionsForm.php:49
+msgid "AddNew"
+msgstr "Thêm mới"
+
+#: inc/pluginComponents/provisionsForm.php:61
+msgid "Whichshopyouwanttoconfigure"
+msgstr "Chọn cửa hàng mà bạn muốn cấu hình."
+
+#: inc/pluginComponents/provisionsForm.php:75
+msgid "Pleasefillthebelowtoactivetheplugin"
+msgstr "Vui lòng nhập thông tin bên dưới để kích hoạt."
+
+#: inc/pluginComponents/provisionsForm.php:75
+msgid "Yougettheneededinformationsdirectfromyourpartner"
+msgstr "You get the needed informations direct from your partner."
+
+#: inc/pluginComponents/provisionsForm.php:75
+msgid "Ifthereareanyquestionspleasecontactus"
+msgstr "Nếu có thắc mắc xin vui lòng liên hệ với chúng tôi."
+
+#: inc/pluginComponents/provisionsForm.php:130
+msgid "Portal"
+msgstr "Portal"
+
+#: inc/pluginComponents/provisionsForm.php:131
+msgid "ActiveSince"
+msgstr "Có hiệu lực từ / Hoạt động từ"
+
+#: inc/pluginComponents/provisionsForm.php:133
+msgid "SalesPerDay"
+msgstr "Doanh số từng ngày"
+
+#: inc/pluginComponents/provisionsForm.php:138
+msgid "Statistics"
+msgstr "Thống kê"
+
+#: inc/pluginComponents/provisionsForm.php:150
+msgid "ConfigurationFor"
+msgstr "Cấu hình của/ Hình dạng của"
+
+#: inc/pluginComponents/provisionsForm.php:153
+msgid "AvailableProductGroup"
+msgstr "Nhóm sản phẩm có sẵn"
+
+#: inc/pluginComponents/provisionsForm.php:158
+msgid "CalculateYourPriceandProvision"
+msgstr "Tính toán giá cả và hoa hồng"
+
+#: inc/pluginComponents/provisionsForm.php:160
+msgid "YourSelection"
+msgstr "Lựa chọn của bạn"
+
+#: inc/pluginComponents/provisionsForm.php:162
+msgid "ExamplePriceFromMerchant"
+msgstr "Giá bán tham khảo"
+
+#: inc/pluginComponents/provisionsForm.php:167
+msgid "YourProvisionAmount"
+msgstr "Số tiền hoa hồng của bạn"
+
+#: inc/pluginComponents/provisionsForm.php:174
+msgid "Your percentages"
+msgstr "Phần trăm của bạn"
+
+#: inc/pluginComponents/provisionsForm.php:182
+msgid "YourProfits"
+msgstr "Lợi nhuận của bạn"
+
+#: inc/pluginComponents/provisionsForm.php:202
+msgid "ExistingProduct"
+msgstr "Sản phẩm hiện có"
+
+#: inc/pluginComponents/provisionsForm.php:206
+msgid "ProductGroup"
+msgstr "Nhóm sản phẩm"
+
+#: inc/pluginComponents/provisionsForm.php:207
+msgid "Provisionabsolute"
+msgstr "Provision absolute"
+
+#: inc/pluginComponents/provisionsForm.php:208
+msgid "Provisionrelative"
+msgstr "Provision relative"
+
+#: inc/pluginComponents/provisionsForm.php:209
+msgid "Created"
+msgstr "Ngày tạo"
+
+#: inc/pluginComponents/provisionsForm.php:210
+msgid "LastChange"
+msgstr "Ngày sửa"
+
+#: inc/pluginComponents/themeForm.php:24
+msgid "Customerdesign"
+msgstr "Tùy chỉnh thiết kế W2P Widget của bạn"
+
+#: inc/pluginComponents/themeForm.php:29
+msgid "Moredesign"
+msgstr "Thiết kế khác"
+
+#: inc/pluginComponents/themeForm.php:32
+msgid "ColourTextLogin"
+msgstr "Màu chữ đăng nhập"
+
+#: inc/pluginComponents/themeForm.php:39
+msgid "GradientBackground"
+msgstr "Màu gradient cho nền"
+
+#: inc/pluginComponents/themeForm.php:53
+msgid "ColourTextPrices"
+msgstr "Màu chữ của giá"
+
+#: inc/pluginComponents/themeForm.php:60
+msgid "ColourTextButton"
+msgstr "Màu chữ trên nút"
+
+#: inc/pluginComponents/themeForm.php:67
+msgid "GradientButton"
+msgstr "Màu gradient của nút"
+
+#: inc/pluginComponents/themeForm.php:79
+msgid "ShadowTextButton "
+msgstr "Bóng chữ của nút"
+
+#: inc/pluginComponents/themeForm.php:151
+msgid "Reset"
+msgstr "Thiết lập lại"
+
+#: inc/pluginComponents/themeForm.php:156
+msgid "ColourTextHeader"
+msgstr "Màu chữ tiêu đề"
+
+#: inc/pluginComponents/themeForm.php:163
+msgid "GradientHeader"
+msgstr "Màu gradient của tiêu đề"
+
+#: inc/pluginComponents/themeForm.php:169
+msgid "ShadowTextHeader"
+msgstr "Bóng tiêu đề"
+
+#: inc/pluginComponents/themeForm.php:190
+msgid "ColourWidgetOutline"
+msgstr "Màu viền Widget"
+
+#: inc/pluginComponents/themeForm.php:197
+msgid "ColourActiveElement"
+msgstr "Màu nền của giá"
+
+#: inc/pluginComponents/themeForm.php:204
+msgid "ColourButtonOutline"
+msgstr "Màu viền của nút"
+
+#: inc/pluginComponents/themeForm.php:209
+msgid "BorderRadiusOutline"
+msgstr "Độ cong của viền"
+
+#: inc/pluginComponents/themeForm.php:230
+msgid "DesignGallery"
+msgstr "Thư viện thiết kế"
+
+#: inc/pluginComponents/themeForm.php:233
+msgid "WhiteTheme"
+msgstr "Giao diện Tuyết"
+
+#: inc/pluginComponents/themeForm.php:240
+msgid "BlueTheme"
+msgstr "Giao diện Đại dương"
+
+#: inc/pluginComponents/themeForm.php:247
+msgid "SilverTheme"
+msgstr "Giao diện Bạc"
+
+#: inc/pluginComponents/themeForm.php:254
+msgid "BlackTheme"
+msgstr "Giao diện Sang trọng"
+
+#: inc/pluginComponents/themeForm.php:261
+msgid "RedTheme"
+msgstr "Giao diện Lửa"
+
+#: inc/pluginComponents/themeForm.php:268
+msgid "AtomicTheme"
+msgstr "Giao diện Đất"
+
+#: inc/pluginComponents/themeForm.php:275
+msgid "CloudTheme"
+msgstr "Giao diện Bầu trời"
+
+#: inc/pluginComponents/themeForm.php:282
+msgid "ShadowTheme"
+msgstr "Giao diện Bóng"
+
+#: inc/pluginComponents/themeForm.php:289
+msgid "GreenTheme"
+msgstr "Giao diện Rừng xanh"
+
+#: inc/pluginComponents/themeForm.php:296
+msgid "BrownTheme"
+msgstr "Giao diện Thung lũng"
+
+#: inc/pluginComponents/widgetForm.php:126
+msgid "CalculatorSettings"
+msgstr "Cài đặt tính toán"
+
+#: inc/pluginComponents/widgetForm.php:131
+#: inc/pluginComponents/widgetForm.php:165
+#: inc/pluginComponents/widgetForm.php:181
+msgid "ShowOnlyForLoginedUser"
+msgstr "Chỉ hiển thị khi người dùng đăng nhập"
+
+#: inc/pluginComponents/widgetForm.php:134
+msgid "Preselection"
+msgstr "Lựa chọn"
+
+#: inc/pluginComponents/widgetForm.php:160
+msgid "CustomerCenterSettings"
+msgstr "Thiết lập cho phần quản lý người dùng"
+
+#: inc/pluginComponents/widgetForm.php:176
+msgid "TemplateDesignSettings"
+msgstr "Cài đặt mẫu/ thiết kế"
+
+#~ msgid "MyProducts"
+#~ msgstr "Sản phẩm của tôi"
+
+#~ msgid "clickoptionsbelowplease"
+#~ msgstr "Vui lòng bấm vào tùy chọn bên dưới"
+
+#~ msgid "loginnow"
+#~ msgstr "Đăng nhập ngay"
+
+#~ msgid "ForgotYourPassword"
+#~ msgstr "Quên mật khẩu"
+
+#~ msgid "UseAnotherEmail"
+#~ msgstr "Dùng địa chỉ Email khác"
+
+#~ msgid "Readytoupload"
+#~ msgstr "Sẵn sàng tải hình"
+
+#~ msgid "Doyouwanttocanceluploadthisimage"
+#~ msgstr "Bạn có muốn dừng tải hình ?"
+
+#~ msgid "of"
+#~ msgstr "của"
+
+#~ msgid "UploadComplete"
+#~ msgstr "Tải hình hoàn tất"
+
+#~ msgid "Finished"
+#~ msgstr "Hoàn tất"
+
+#~ msgid "seconds"
+#~ msgstr "giây"
+
+#~ msgid "minutes"
+#~ msgstr "phút"
+
+#~ msgid "hours"
+#~ msgstr "giờ"
+
+#~ msgid "days"
+#~ msgstr "ngày"
+
+#~ msgid "Rotate"
+#~ msgstr "Xoay"
+
+#~ msgid "Preview"
+#~ msgstr "Xem trước"
+
+#~ msgid "YourProvisionLevel"
+#~ msgstr "Cấp bậc hoa hồng"
+
+#~ msgid "Headertextcolour"
+#~ msgstr "Màu sắc tiêu đề"
+
+#~ msgid "PleaseSelectShippingAddress"
+#~ msgstr "Vui lòng chọn địa chỉ vận chuyển ưu tiên của bạn"
+
+#~ msgid "HeaderGradient"
+#~ msgstr "Màu nền tiêu đề"
+
+#~ msgid "ButtonGradient"
+#~ msgstr "Màu nền Button"
+
+#~ msgid "ButtonTextShadow"
+#~ msgstr "Bóng đổ"
+
+#~ msgid "HeaderTextShadow"
+#~ msgstr "Bóng cho tiêu đề"
+
+#~ msgid "PriceListHoverColor"
+#~ msgstr "Màu danh sách giá"
+
+#~ msgid "OrderProduct"
+#~ msgstr "Đặt Hàng"
+
+#~ msgid "WidgetButton1"
+#~ msgstr "Màu nền của nút"
+
+#~ msgid "Product"
+#~ msgstr "Sản xuất"
+
+#~ msgid "WidgetHeader1"
+#~ msgstr "Màu nền tiêu đề"
+
+#~ msgid "photo"
+#~ msgstr "anh"
+
+#~ msgid "Redirect"
+#~ msgstr "Chuyển hướng"
+
+#, fuzzy
+#~ msgid "Imprint"
+#~ msgstr "Tải về "
+
+#, fuzzy
+#~ msgid "Start here"
+#~ msgstr "Tỉnh"
+
+#, fuzzy
+#~ msgid "Orange"
+#~ msgstr "Thay đổi"
+
+#, fuzzy
+#~ msgid "Glass"
+#~ msgstr "Mật khẩu cũ"
+
+#~ msgid "Quantity"
+#~ msgstr "Số lượng"
+
+#~ msgid "Back"
+#~ msgstr "Quay lại"
+
+#, fuzzy
+#~ msgid "IncludeVAT"
+#~ msgstr "Tổng cộng giá (bao gồm VAT và phí vận chuyển)"
+
+#~ msgid "Address & Payment"
+#~ msgstr "Địa chỉ & phương thức thanh toán"
+
+#~ msgid "VisitCards"
+#~ msgstr "Danh thiếp"
+
+#~ msgid "HandcraftedPainting"
+#~ msgstr "Tranh vẽ"
+
+#~ msgid "AddConnection"
+#~ msgstr "Thêm kết nối"
+
+#~ msgid "Ifyouprefertouseanotheremailaddress"
+#~ msgstr "Nếu bạn muốn sử dụng địa chỉ email khác"
+
+#, fuzzy
+#~ msgid "Firstname"
+#~ msgstr "Tên"
+
+#, fuzzy
+#~ msgid "Lastname"
+#~ msgstr "Họ"
+
+#~ msgid "TimeZones"
+#~ msgstr "Múi giờ"
+
+#~ msgid "Stamps"
+#~ msgstr "Stamps"
+
+#~ msgid "UploadFromFacebook"
+#~ msgstr "Upload From Facebook"
+
+#~ msgid "UploadFromFlickr"
+#~ msgstr "Upload From Flickr"
+
+#~ msgid "MaxDate"
+#~ msgstr "Max Date"
+
+#~ msgid "LoginDetailsCaption"
+#~ msgstr "Login Details Caption"
+
+#~ msgid "EmailAddressCaption"
+#~ msgstr "Email Address Caption"
+
+#~ msgid "DragHereForUploadCaption"
+#~ msgstr "Drag Here For Upload Caption"
+
+#~ msgid "MyTemplateCaption"
+#~ msgstr "My Template Caption"
+
+#~ msgid "MyGalleryCaption"
+#~ msgstr "My Gallery Caption"
+
+#~ msgid "MyAddressbookCaption"
+#~ msgstr "My Addressbook Caption"
+
+#~ msgid "ApprovalSettings"
+#~ msgstr "Approval Settings"
+
+#~ msgid "ShippingCosts"
+#~ msgstr "Phí vận chuyển"
+
+#~ msgid "YourAddressCaption"
+#~ msgstr "YourAddressCaption"
+
+#~ msgid "YourCityCaption"
+#~ msgstr "Your City Caption"
+
+#~ msgid "SelectShippingAddressCaption"
+#~ msgstr "Select Shipping Address Caption"
+
+#~ msgid "NewsletterCaption"
+#~ msgstr "News letter Caption"
+
+#~ msgid "ShowPriceCaption"
+#~ msgstr "Show Price Caption"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "ZoomSlider"
+#~ msgstr "Zoom Slider"
+
+#~ msgid "ShippingAndAllCosts"
+#~ msgstr "chi phí vận chuyển và tất cả các chi phí"
+
+#~ msgid "Hello World!"
+#~ msgstr "Hello World"

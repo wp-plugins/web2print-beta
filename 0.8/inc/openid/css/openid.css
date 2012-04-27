@@ -1,0 +1,152 @@
+
+body
+{
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.openid
+{
+	border:1px solid #999999;
+	margin:0 auto;
+	margin-top:16px;
+	margin-bottom:16px;
+	padding:0px;
+	width:500px;
+}
+
+.openid h1
+{
+	margin:0px;
+	padding:8px;
+}
+
+.openid p
+{
+	margin:0px;
+	padding:8px;
+}
+
+.provider
+{
+	float:right;
+	margin:0px;
+	padding:16px;
+	padding-left:0px;
+	background-color:#DDDDDD;
+	display:none;
+    width: 120px;
+}
+
+.provider ul
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+.provider li
+{
+	margin:0px;
+	margin-bottom:4px;
+	padding:0px;
+}
+
+.provider a
+{
+	color:#222222;
+	text-decoration:none;
+
+	display:block;
+	width:120px;
+	margin:4px;
+	padding:6px;
+	font-size:13px;
+}
+
+.provider img
+{
+	border:none;
+	vertical-align:middle;
+	margin-right:4px;
+}
+
+.provider select
+{
+	width:80px;
+	margin:2px;
+	padding:2px;
+}
+
+.identity
+{
+	margin-top:16px;
+	margin-bottom:8px;
+
+	margin:2px;
+	padding:2px;
+}
+
+.identity label
+{
+	margin:2px;
+	padding:2px;
+}
+
+.identity input
+{
+	margin-left:8px;
+}
+
+.input_name
+{
+	padding:4px;
+	margin:2px;
+	width:172px;
+}
+
+.input_identity
+{
+	background-repeat:no-repeat;
+	background-position:left center;
+	background-image:url(../img/provider/openid.png);
+	background-position:2px 4px;
+	padding:4px;
+	margin:2px;
+	width:256px;
+	text-indent:16px;
+}
+
+.sign_in
+{
+	margin:2px;
+	padding:2px;
+}
+
+.selected a
+{
+	border:none;
+	margin:4px;
+	margin-left:0px;
+	padding:6px;
+	background-color:#FFFFFF;
+	font-weight:bold;
+}
+
+.error
+{
+	width:340px;
+	border:1px solid #EE0000;
+	background-color:#EEAAAA;
+	padding:6px;
+	margin:8px;
+	font-size:13px;
+}
+
+.hidden
+{
+	clear:right;
+	margin:0px;
+	padding:0px;
+}
+
