@@ -1,16 +1,16 @@
 ﻿=== web2print beta ===
-Contributors: Normprint Ltd.
-Donate link: http://www.delivergo.com
-Tags: Print widget, Affiliate, Mass Customisation
+Contributors: Delivergo
+Donate link: http://euxira.com/
+Tags: Web2Print, Affiliate, Mass Customisation
 Requires at least: 3.3.0
 Tested up to: 3.3.0
 Stable tag: 0.91
 
-web2print beta plugin
+Web2Print plugin
 
 == Description ==
 
-web2print beta Plugin, which allows you to sell motives on your wordpress blog.
+A Web2Print plugin to offer printing products & personalised gifts very easy & fast.
 
 More information coming soon ...
 
