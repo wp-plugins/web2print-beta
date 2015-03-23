@@ -1,16 +1,16 @@
-﻿=== web2print beta ===
+﻿=== PrintWidget plugin by fotube.com ===
 Contributors: Delivergo
 Donate link: http://euxira.com/
-Tags: Web2Print, Affiliate, Mass Customisation
+Tags: PrintWidget, Affiliate, Mass Customisation
 Requires at least: 3.3.0
 Tested up to: 3.3.0
 Stable tag: 0.91
 
-Web2Print plugin
+PrintWidget plugin by fotube.com
 
 == Description ==
 
-A Web2Print plugin to offer printing products & personalised gifts very easy & fast.
+A PrintWidget plugin to offer printing products & personalised gifts very easy & fast.
 
 More information coming soon ...
 
