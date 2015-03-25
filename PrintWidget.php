@@ -7,7 +7,7 @@
 		Version: 0.91
     */	
 	
-	define('PW_URI', site_url().'/wp-content/plugins/PrintWidget/');	
+	define('PW_URI', site_url().'/wp-content/plugins/web2print-beta/');	
 	define('PW_INC_URI', PW_URI . 'inc/');
 	define('PW_CSS_URI', PW_URI . 'css/');
 	define('PW_JS_URI', PW_URI . 'js/');
