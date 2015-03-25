@@ -12,7 +12,7 @@
 	define('PW_CSS_URI', PW_URI . 'css/');
 	define('PW_JS_URI', PW_URI . 'js/');
 	
-	include_once('functions.php');
+	include_once dirname(__FILE__) . '/functions.php';
 	
 	//When plugin is actived we will add some settings to wordpress 
     register_activation_hook(__FILE__, 'printwidget_install');

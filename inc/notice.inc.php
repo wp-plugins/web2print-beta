@@ -1,0 +1,1 @@
+<div id="np_message" class="error" style="margin: 5px 0 15px;"><p><strong>Missing JS code! you need to add <a href="options-general.php?page=printwidget">JS Code</a> for print widget.</strong></p></div>
